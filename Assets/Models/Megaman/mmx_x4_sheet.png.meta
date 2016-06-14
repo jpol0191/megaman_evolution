@@ -1,0 +1,4158 @@
+fileFormatVersion: 2
+guid: 163d0145329c95c4db4087efca8bef50
+timeCreated: 1465754817
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx_x4_sheet_0
+    21300002: mmx_x4_sheet_1
+    21300004: mmx_x4_sheet_2
+    21300006: mmx_x4_sheet_3
+    21300008: mmx_x4_sheet_4
+    21300010: mmx_x4_sheet_5
+    21300012: mmx_x4_sheet_6
+    21300014: mmx_x4_sheet_7
+    21300016: mmx_x4_sheet_8
+    21300018: mmx_x4_sheet_9
+    21300020: mmx_x4_sheet_10
+    21300022: mmx_x4_sheet_11
+    21300024: mmx_x4_sheet_12
+    21300026: mmx_x4_sheet_13
+    21300028: mmx_x4_sheet_14
+    21300030: mmx_x4_sheet_15
+    21300032: mmx_x4_sheet_16
+    21300034: mmx_x4_sheet_17
+    21300036: mmx_x4_sheet_18
+    21300038: mmx_x4_sheet_19
+    21300040: mmx_x4_sheet_20
+    21300042: mmx_x4_sheet_21
+    21300044: mmx_x4_sheet_22
+    21300046: mmx_x4_sheet_23
+    21300048: mmx_x4_sheet_24
+    21300050: mmx_x4_sheet_25
+    21300052: mmx_x4_sheet_26
+    21300054: mmx_x4_sheet_27
+    21300056: mmx_x4_sheet_28
+    21300058: mmx_x4_sheet_29
+    21300060: mmx_x4_sheet_30
+    21300062: mmx_x4_sheet_31
+    21300064: mmx_x4_sheet_32
+    21300066: mmx_x4_sheet_33
+    21300068: mmx_x4_sheet_34
+    21300070: mmx_x4_sheet_35
+    21300072: mmx_x4_sheet_36
+    21300074: mmx_x4_sheet_37
+    21300076: mmx_x4_sheet_38
+    21300078: mmx_x4_sheet_39
+    21300080: mmx_x4_sheet_40
+    21300082: mmx_x4_sheet_41
+    21300084: mmx_x4_sheet_42
+    21300086: mmx_x4_sheet_43
+    21300088: mmx_x4_sheet_44
+    21300090: mmx_x4_sheet_45
+    21300092: mmx_x4_sheet_46
+    21300094: mmx_x4_sheet_47
+    21300096: mmx_x4_sheet_48
+    21300098: mmx_x4_sheet_49
+    21300100: mmx_x4_sheet_50
+    21300102: mmx_x4_sheet_51
+    21300104: mmx_x4_sheet_52
+    21300106: mmx_x4_sheet_53
+    21300108: mmx_x4_sheet_54
+    21300110: mmx_x4_sheet_55
+    21300112: mmx_x4_sheet_56
+    21300114: mmx_x4_sheet_57
+    21300116: mmx_x4_sheet_58
+    21300118: mmx_x4_sheet_59
+    21300120: mmx_x4_sheet_60
+    21300122: mmx_x4_sheet_61
+    21300124: mmx_x4_sheet_62
+    21300126: mmx_x4_sheet_63
+    21300128: mmx_x4_sheet_64
+    21300130: mmx_x4_sheet_65
+    21300132: mmx_x4_sheet_66
+    21300134: mmx_x4_sheet_67
+    21300136: mmx_x4_sheet_68
+    21300138: mmx_x4_sheet_69
+    21300140: mmx_x4_sheet_70
+    21300142: mmx_x4_sheet_71
+    21300144: mmx_x4_sheet_72
+    21300146: mmx_x4_sheet_73
+    21300148: mmx_x4_sheet_74
+    21300150: mmx_x4_sheet_75
+    21300152: mmx_x4_sheet_76
+    21300154: mmx_x4_sheet_77
+    21300156: mmx_x4_sheet_78
+    21300158: mmx_x4_sheet_79
+    21300160: mmx_x4_sheet_80
+    21300162: mmx_x4_sheet_81
+    21300164: mmx_x4_sheet_82
+    21300166: mmx_x4_sheet_83
+    21300168: mmx_x4_sheet_84
+    21300170: mmx_x4_sheet_85
+    21300172: mmx_x4_sheet_86
+    21300174: mmx_x4_sheet_87
+    21300176: mmx_x4_sheet_88
+    21300178: mmx_x4_sheet_89
+    21300180: mmx_x4_sheet_90
+    21300182: mmx_x4_sheet_91
+    21300184: mmx_x4_sheet_92
+    21300186: mmx_x4_sheet_93
+    21300188: mmx_x4_sheet_94
+    21300190: mmx_x4_sheet_95
+    21300192: mmx_x4_sheet_96
+    21300194: mmx_x4_sheet_97
+    21300196: mmx_x4_sheet_98
+    21300198: mmx_x4_sheet_99
+    21300200: mmx_x4_sheet_100
+    21300202: mmx_x4_sheet_101
+    21300204: mmx_x4_sheet_102
+    21300206: mmx_x4_sheet_103
+    21300208: mmx_x4_sheet_104
+    21300210: mmx_x4_sheet_105
+    21300212: mmx_x4_sheet_106
+    21300214: mmx_x4_sheet_107
+    21300216: mmx_x4_sheet_108
+    21300218: mmx_x4_sheet_109
+    21300220: mmx_x4_sheet_110
+    21300222: mmx_x4_sheet_111
+    21300224: mmx_x4_sheet_112
+    21300226: mmx_x4_sheet_113
+    21300228: mmx_x4_sheet_114
+    21300230: mmx_x4_sheet_115
+    21300232: mmx_x4_sheet_116
+    21300234: mmx_x4_sheet_117
+    21300236: mmx_x4_sheet_118
+    21300238: mmx_x4_sheet_119
+    21300240: mmx_x4_sheet_120
+    21300242: mmx_x4_sheet_121
+    21300244: mmx_x4_sheet_122
+    21300246: mmx_x4_sheet_123
+    21300248: mmx_x4_sheet_124
+    21300250: mmx_x4_sheet_125
+    21300252: mmx_x4_sheet_126
+    21300254: mmx_x4_sheet_127
+    21300256: mmx_x4_sheet_128
+    21300258: mmx_x4_sheet_129
+    21300260: mmx_x4_sheet_130
+    21300262: mmx_x4_sheet_131
+    21300264: mmx_x4_sheet_132
+    21300266: mmx_x4_sheet_133
+    21300268: mmx_x4_sheet_134
+    21300270: mmx_x4_sheet_135
+    21300272: mmx_x4_sheet_136
+    21300274: mmx_x4_sheet_137
+    21300276: mmx_x4_sheet_138
+    21300278: mmx_x4_sheet_139
+    21300280: mmx_x4_sheet_140
+    21300282: mmx_x4_sheet_141
+    21300284: mmx_x4_sheet_142
+    21300286: mmx_x4_sheet_143
+    21300288: mmx_x4_sheet_144
+    21300290: mmx_x4_sheet_145
+    21300292: mmx_x4_sheet_146
+    21300294: mmx_x4_sheet_147
+    21300296: mmx_x4_sheet_148
+    21300298: mmx_x4_sheet_149
+    21300300: mmx_x4_sheet_150
+    21300302: mmx_x4_sheet_151
+    21300304: mmx_x4_sheet_152
+    21300306: mmx_x4_sheet_153
+    21300308: mmx_x4_sheet_154
+    21300310: mmx_x4_sheet_155
+    21300312: mmx_x4_sheet_156
+    21300314: mmx_x4_sheet_157
+    21300316: mmx_x4_sheet_158
+    21300318: mmx_x4_sheet_159
+    21300320: mmx_x4_sheet_160
+    21300322: mmx_x4_sheet_161
+    21300324: mmx_x4_sheet_162
+    21300326: mmx_x4_sheet_163
+    21300328: mmx_x4_sheet_164
+    21300330: mmx_x4_sheet_165
+    21300332: mmx_x4_sheet_166
+    21300334: mmx_x4_sheet_167
+    21300336: mmx_x4_sheet_168
+    21300338: mmx_x4_sheet_169
+    21300340: mmx_x4_sheet_170
+    21300342: mmx_x4_sheet_171
+    21300344: mmx_x4_sheet_172
+    21300346: mmx_x4_sheet_173
+    21300348: mmx_x4_sheet_174
+    21300350: mmx_x4_sheet_175
+    21300352: mmx_x4_sheet_176
+    21300354: mmx_x4_sheet_177
+    21300356: mmx_x4_sheet_178
+    21300358: mmx_x4_sheet_179
+    21300360: mmx_x4_sheet_180
+    21300362: mmx_x4_sheet_181
+    21300364: mmx_x4_sheet_182
+    21300366: mmx_x4_sheet_183
+    21300368: mmx_x4_sheet_184
+    21300370: mmx_x4_sheet_185
+    21300372: mmx_x4_sheet_186
+    21300374: mmx_x4_sheet_187
+    21300376: mmx_x4_sheet_188
+    21300378: mmx_x4_sheet_189
+    21300380: mmx_x4_sheet_190
+    21300382: mmx_x4_sheet_191
+    21300384: mmx_x4_sheet_192
+    21300386: mmx_x4_sheet_193
+    21300388: mmx_x4_sheet_194
+    21300390: mmx_x4_sheet_195
+    21300392: mmx_x4_sheet_196
+    21300394: mmx_x4_sheet_197
+    21300396: mmx_x4_sheet_198
+    21300398: mmx_x4_sheet_199
+    21300400: mmx_x4_sheet_200
+    21300402: mmx_x4_sheet_201
+    21300404: mmx_x4_sheet_202
+    21300406: mmx_x4_sheet_203
+    21300408: mmx_x4_sheet_204
+    21300410: mmx_x4_sheet_205
+    21300412: mmx_x4_sheet_206
+    21300414: mmx_x4_sheet_207
+    21300416: mmx_x4_sheet_208
+    21300418: mmx_x4_sheet_209
+    21300420: mmx_x4_sheet_210
+    21300422: mmx_x4_sheet_211
+    21300424: mmx_x4_sheet_212
+    21300426: mmx_x4_sheet_213
+    21300428: mmx_x4_sheet_214
+    21300430: mmx_x4_sheet_215
+    21300432: mmx_x4_sheet_216
+    21300434: mmx_x4_sheet_217
+    21300436: mmx_x4_sheet_218
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx_x4_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1376
+        width: 6
+        height: 80
+      alignment: 9
+      pivot: {x: 0.43665186, y: 0.39547578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1376
+        width: 21
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1376
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -20, y: 9}
+        - {x: -20, y: -14}
+        - {x: -14, y: -16}
+        - {x: 20, y: -16}
+        - {x: 20, y: 11}
+        - {x: 18, y: 16}
+    - name: mmx_x4_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1366
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 26}
+        - {x: -30, y: 20}
+        - {x: -30, y: -12}
+        - {x: -18, y: -26}
+        - {x: 18, y: -26}
+        - {x: 30, y: -23}
+        - {x: 30, y: 19}
+        - {x: 24, y: 26}
+    - name: mmx_x4_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1362
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 30}
+        - {x: -32, y: 23}
+        - {x: -32, y: -22}
+        - {x: -27, y: -30}
+        - {x: 30, y: -30}
+        - {x: 32, y: -27}
+        - {x: 32, y: 20}
+        - {x: 29, y: 30}
+    - name: mmx_x4_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -32, y: 19}
+        - {x: -32, y: -18}
+        - {x: -31, y: -22}
+        - {x: -17, y: -32}
+        - {x: 21, y: -32}
+        - {x: 32, y: -26}
+        - {x: 32, y: 18}
+        - {x: 26, y: 32}
+    - name: mmx_x4_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1360
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -32, y: 19}
+        - {x: -32, y: -18}
+        - {x: -31, y: -22}
+        - {x: -17, y: -32}
+        - {x: 21, y: -32}
+        - {x: 32, y: -26}
+        - {x: 32, y: 18}
+        - {x: 26, y: 32}
+    - name: mmx_x4_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1366
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 26}
+        - {x: -27, y: 21}
+        - {x: -27, y: -18}
+        - {x: -24, y: -26}
+        - {x: 24, y: -26}
+        - {x: 27, y: -19}
+        - {x: 27, y: 24}
+        - {x: 25, y: 26}
+    - name: mmx_x4_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1298
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 20.5}
+        - {x: -20.5, y: 8.5}
+        - {x: -20.5, y: -20.5}
+        - {x: 20.5, y: -20.5}
+        - {x: 20.5, y: 18.5}
+        - {x: 19.5, y: 20.5}
+    - name: mmx_x4_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1302
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 20.5}
+        - {x: -7, y: 11.5}
+        - {x: -17, y: -11.5}
+        - {x: -17, y: -20.5}
+        - {x: 17, y: -20.5}
+        - {x: 17, y: 16.5}
+        - {x: 14, y: 20.5}
+    - name: mmx_x4_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1302
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 21.5}
+        - {x: -6, y: 21.5}
+        - {x: -17, y: 2.5}
+        - {x: -17, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 17, y: 19.5}
+    - name: mmx_x4_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1302
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 22.5}
+        - {x: -16, y: 22.5}
+        - {x: -16, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 16, y: 21.5}
+    - name: mmx_x4_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1302
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1302
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1302
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 6.5}
+        - {x: 19, y: 23.5}
+        - {x: -14, y: 23.5}
+        - {x: -34, y: 11.5}
+        - {x: -34, y: -20.5}
+        - {x: -28, y: -23.5}
+        - {x: 24, y: -23.5}
+        - {x: 22, y: -18.5}
+        - {x: 34, y: -1.5}
+    - name: mmx_x4_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1302
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 21.5}
+        - {x: -27, y: 13.5}
+        - {x: -27, y: -8.5}
+        - {x: -16, y: -21.5}
+        - {x: 27, y: -21.5}
+        - {x: 27, y: 12.5}
+        - {x: 20, y: 21.5}
+    - name: mmx_x4_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1302
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 22.5}
+        - {x: 1, y: 22.5}
+        - {x: -12, y: 8.5}
+        - {x: -12, y: -22.5}
+        - {x: 27, y: -22.5}
+        - {x: 27, y: 8.5}
+        - {x: 19, y: 18.5}
+      - - {x: -27, y: -2.5}
+        - {x: -23, y: -2.5}
+        - {x: -14, y: -0.5}
+        - {x: -14, y: 4.5}
+        - {x: -15, y: 5.5}
+        - {x: -22, y: 5.5}
+        - {x: -27, y: 3.5}
+    - name: mmx_x4_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1250
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 23}
+        - {x: -17.5, y: 16}
+        - {x: -17.5, y: -23}
+        - {x: 17.5, y: -23}
+        - {x: 17.5, y: 23}
+    - name: mmx_x4_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1250
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 22.5}
+        - {x: -4.5, y: 21.5}
+        - {x: -15.5, y: 5.5}
+        - {x: -17.5, y: -8.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 17.5, y: -22.5}
+        - {x: 17.5, y: 13.5}
+        - {x: 13.5, y: 22.5}
+    - name: mmx_x4_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1250
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 22}
+        - {x: -15.5, y: 5}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -22}
+        - {x: 17.5, y: -22}
+        - {x: 17.5, y: 12}
+        - {x: 13.5, y: 22}
+    - name: mmx_x4_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1250
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 22}
+        - {x: -15.5, y: 5}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -22}
+        - {x: 17.5, y: -22}
+        - {x: 17.5, y: 12}
+        - {x: 13.5, y: 22}
+    - name: mmx_x4_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1250
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 22}
+        - {x: -15.5, y: 5}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -22}
+        - {x: 17.5, y: -22}
+        - {x: 17.5, y: 12}
+        - {x: 13.5, y: 22}
+    - name: mmx_x4_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1192
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1190
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1186
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1184
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1185
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1187
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -12, y: 25}
+        - {x: -17, y: 23}
+        - {x: -17, y: 1}
+        - {x: -15, y: -9}
+        - {x: -10, y: -25}
+        - {x: 8, y: -25}
+        - {x: 11, y: -14}
+        - {x: 17, y: 5}
+        - {x: 17, y: 23}
+    - name: mmx_x4_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1186
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 26}
+        - {x: -13, y: 26}
+        - {x: -16, y: 25}
+        - {x: -16, y: -13}
+        - {x: -11, y: -26}
+        - {x: 4, y: -26}
+        - {x: 12, y: -10}
+        - {x: 16, y: 2}
+        - {x: 16, y: 21}
+    - name: mmx_x4_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1185
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1185
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1186
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1189
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 21.5}
+        - {x: -9, y: 21.5}
+        - {x: -16, y: 3.5}
+        - {x: -16, y: -21.5}
+        - {x: 16, y: -21.5}
+        - {x: 16, y: -1.5}
+        - {x: 14, y: 20.5}
+    - name: mmx_x4_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1128
+        width: 49
+        height: 44
+      alignment: 9
+      pivot: {x: 0.3407697, y: 0.48918846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.697716, y: 22.475708}
+        - {x: -16.697716, y: 8.475708}
+        - {x: -16.697716, y: -21.524292}
+        - {x: 28.302284, y: -21.524292}
+        - {x: 32.302284, y: -13.524292}
+        - {x: 32.302284, y: 22.475708}
+    - name: mmx_x4_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1128
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.32483354, y: 0.48460248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.40799, y: 22.67749}
+        - {x: -10.5920105, y: 22.67749}
+        - {x: -15.5920105, y: 16.67749}
+        - {x: -15.5920105, y: -21.32251}
+        - {x: 23.40799, y: -21.32251}
+        - {x: 24.40799, y: -16.32251}
+        - {x: 19.40799, y: -8.32251}
+        - {x: 32.40799, y: -1.3225098}
+    - name: mmx_x4_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1128
+        width: 49
+        height: 44
+      alignment: 9
+      pivot: {x: 0.32355484, y: 0.48164508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.854187, y: 22.807617}
+        - {x: -15.854187, y: 17.807617}
+        - {x: -15.854187, y: -21.192383}
+        - {x: 29.145813, y: -21.192383}
+        - {x: 33.145813, y: -14.192383}
+        - {x: 33.145813, y: 22.807617}
+    - name: mmx_x4_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1128
+        width: 49
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3214516, y: 0.47789985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.751129, y: 23.494507}
+        - {x: -15.751129, y: 21.494507}
+        - {x: -15.751129, y: -21.505493}
+        - {x: 24.24887, y: -21.505493}
+        - {x: 25.24887, y: -16.505493}
+        - {x: 33.24887, y: -6.505493}
+        - {x: 33.24887, y: 23.494507}
+    - name: mmx_x4_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1128
+        width: 40
+        height: 45
+      alignment: 9
+      pivot: {x: 0.38839722, y: 0.47721082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.535889, y: 23.525513}
+        - {x: -15.535889, y: 22.525513}
+        - {x: -15.535889, y: -21.474487}
+        - {x: 24.464111, y: -21.474487}
+        - {x: 24.464111, y: 17.525513}
+        - {x: 15.464111, y: 23.525513}
+      - - {x: 13.464111, y: -2.4744873}
+        - {x: 15.464111, y: -4.4744873}
+        - {x: 18.464111, y: -3.4744873}
+        - {x: 18.464111, y: -0.4744873}
+        - {x: 16.464111, y: 1.5255127}
+        - {x: 13.464111, y: 0.5255127}
+      - - {x: 15.464111, y: 19.525513}
+        - {x: 18.464111, y: 20.525513}
+        - {x: 18.464111, y: 23.525513}
+        - {x: 13.464111, y: 23.525513}
+        - {x: 13.464111, y: 21.525513}
+    - name: mmx_x4_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1128
+        width: 41
+        height: 44
+      alignment: 9
+      pivot: {x: 0.41958767, y: 0.49108887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.2030945, y: 22.39209}
+        - {x: -14.2030945, y: 19.39209}
+        - {x: -17.203094, y: 4.39209}
+        - {x: -17.203094, y: -21.60791}
+        - {x: 21.796906, y: -21.60791}
+        - {x: 23.796906, y: -13.60791}
+        - {x: 23.796906, y: 18.39209}
+        - {x: 15.7969055, y: 22.39209}
+    - name: mmx_x4_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1128
+        width: 38
+        height: 44
+      alignment: 9
+      pivot: {x: 0.41251093, y: 0.48568448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.675415, y: 22.629883}
+        - {x: -15.675415, y: 3.6298828}
+        - {x: -15.675415, y: -21.370117}
+        - {x: 22.324585, y: -21.370117}
+        - {x: 22.324585, y: 22.629883}
+    - name: mmx_x4_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1128
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 22.5}
+        - {x: -17, y: 5.5}
+        - {x: -17, y: -22.5}
+        - {x: 17, y: -22.5}
+        - {x: 17, y: 22.5}
+    - name: mmx_x4_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1052
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 27.5}
+        - {x: -16.5, y: 23.5}
+        - {x: -22.5, y: 13.5}
+        - {x: -23.5, y: 4.5}
+        - {x: -23.5, y: -27.5}
+        - {x: 18.5, y: -27.5}
+        - {x: 23.5, y: -20.5}
+        - {x: 23.5, y: 27.5}
+    - name: mmx_x4_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1052
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 31}
+        - {x: -5.5, y: 28}
+        - {x: -23.5, y: 13}
+        - {x: -23.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 23.5, y: -25}
+        - {x: 23.5, y: 22}
+        - {x: 19.5, y: 31}
+    - name: mmx_x4_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1050
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34}
+        - {x: -25, y: -15}
+        - {x: -25, y: -34}
+        - {x: 18, y: -34}
+        - {x: 25, y: -18}
+        - {x: 25, y: 23}
+        - {x: 16, y: 34}
+    - name: mmx_x4_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1047
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -14}
+        - {x: 12, y: -14}
+        - {x: 13, y: -17}
+        - {x: 22, y: -16}
+        - {x: 28, y: -12}
+        - {x: 28, y: 37}
+        - {x: -28, y: 37}
+        - {x: -28, y: -34}
+        - {x: -16, y: -37}
+        - {x: 9, y: -37}
+        - {x: 14, y: -28}
+        - {x: 14, y: -19}
+        - {x: 12, y: -14}
+      - - {x: 6, y: 25}
+        - {x: 6, y: 20}
+        - {x: 8, y: 14}
+        - {x: 11, y: 14}
+        - {x: 13, y: 15}
+        - {x: 14, y: 18}
+        - {x: 14, y: 22}
+        - {x: 10, y: 25}
+    - name: mmx_x4_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1046
+        width: 40
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -1}
+        - {x: 20, y: 11}
+        - {x: 4, y: 22}
+        - {x: 1, y: 30}
+        - {x: -2, y: 34}
+        - {x: 2, y: 30}
+        - {x: 5, y: 31}
+        - {x: 7, y: 36}
+        - {x: 6, y: 38}
+        - {x: -13, y: 38}
+        - {x: -19, y: 36}
+        - {x: -20, y: 29}
+        - {x: -20, y: 7}
+        - {x: -19, y: 6}
+        - {x: -16, y: 7}
+        - {x: -16, y: -3}
+        - {x: -16, y: -2}
+        - {x: -17, y: 1}
+        - {x: -20, y: 2}
+        - {x: -20, y: -35}
+        - {x: -17, y: -38}
+        - {x: 20, y: -38}
+        - {x: 20, y: -25}
+        - {x: 17, y: -5}
+        - {x: 12, y: -6}
+        - {x: 9, y: -7}
+      - - {x: 8, y: 5}
+        - {x: 8, y: -5}
+        - {x: 12, y: -5}
+        - {x: 14, y: -4}
+        - {x: 14, y: 2}
+        - {x: 13, y: 5}
+      - - {x: 5, y: 23}
+        - {x: 9, y: 19}
+        - {x: 12, y: 20}
+        - {x: 12, y: 22}
+        - {x: 8, y: 26}
+        - {x: 6, y: 26}
+    - name: mmx_x4_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1045
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: -33}
+        - {x: 15.5, y: -33}
+        - {x: 18.5, y: -34}
+        - {x: 18.5, y: 14}
+        - {x: 14.5, y: 39}
+        - {x: -16.5, y: 39}
+        - {x: -20.5, y: 27}
+        - {x: -20.5, y: -35}
+        - {x: -6.5, y: -39}
+        - {x: 10.5, y: -39}
+        - {x: 11.5, y: -35}
+        - {x: 9.5, y: -33}
+        - {x: 6.5, y: -34}
+      - - {x: 12.5, y: -16}
+        - {x: 15.5, y: -15}
+        - {x: 15.5, y: -12}
+        - {x: 12.5, y: -11}
+        - {x: 10.5, y: -13}
+      - - {x: 17.5, y: -7}
+        - {x: 15.5, y: -11}
+        - {x: 15.5, y: -14}
+        - {x: 17.5, y: -16}
+        - {x: 20.5, y: -15}
+        - {x: 20.5, y: -7}
+      - - {x: 9.5, y: -5}
+        - {x: 12.5, y: -4}
+        - {x: 12.5, y: -1}
+        - {x: 9.5, y: 0}
+        - {x: 7.5, y: -2}
+      - - {x: 17.5, y: -3}
+        - {x: 19.5, y: -5}
+        - {x: 20.5, y: -5}
+        - {x: 20.5, y: 0}
+        - {x: 18.5, y: 0}
+      - - {x: 9.5, y: 0}
+        - {x: 12.5, y: 1}
+        - {x: 12.5, y: 4}
+        - {x: 9.5, y: 5}
+        - {x: 7.5, y: 3}
+      - - {x: 17.5, y: 2}
+        - {x: 19.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 20.5, y: 5}
+        - {x: 18.5, y: 5}
+      - - {x: 16.5, y: 16}
+        - {x: 15.5, y: 13}
+        - {x: 18.5, y: 7}
+        - {x: 20.5, y: 7}
+        - {x: 20.5, y: 13}
+        - {x: 19.5, y: 16}
+      - - {x: 12.5, y: 11}
+        - {x: 15.5, y: 12}
+        - {x: 15.5, y: 15}
+        - {x: 12.5, y: 16}
+        - {x: 10.5, y: 14}
+      - - {x: 15.5, y: 22}
+        - {x: 18.5, y: 23}
+        - {x: 18.5, y: 26}
+        - {x: 15.5, y: 27}
+        - {x: 13.5, y: 25}
+    - name: mmx_x4_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1052
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 14.5}
+        - {x: -4, y: 24.5}
+        - {x: -18, y: 24.5}
+        - {x: -18, y: -24.5}
+        - {x: 18, y: -24.5}
+        - {x: 18, y: -16.5}
+        - {x: 16, y: -11.5}
+    - name: mmx_x4_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1052
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -25.5}
+        - {x: 16.5, y: -25.5}
+        - {x: 16.5, y: 12.5}
+        - {x: 15.5, y: 23.5}
+        - {x: 13.5, y: 25.5}
+        - {x: -10.5, y: 25.5}
+        - {x: -16.5, y: 17.5}
+    - name: mmx_x4_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 996
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 22.5}
+        - {x: -16.5, y: 8.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 16.5, y: -22.5}
+        - {x: 16.5, y: 22.5}
+    - name: mmx_x4_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 996
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 997
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 23}
+        - {x: -13, y: 11}
+        - {x: -16, y: -2}
+        - {x: -16, y: -23}
+        - {x: 16, y: -23}
+        - {x: 16, y: 23}
+    - name: mmx_x4_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 998
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -22}
+        - {x: 20, y: -22}
+        - {x: 20, y: 22}
+        - {x: -3, y: 22}
+        - {x: -20, y: 11}
+    - name: mmx_x4_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 998
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -3.5}
+        - {x: 9, y: -0.5}
+        - {x: 9, y: -1.5}
+        - {x: 10, y: -0.5}
+        - {x: 11, y: -1.5}
+        - {x: 16, y: -2.5}
+        - {x: 24, y: 4.5}
+        - {x: 24, y: 13.5}
+        - {x: 19, y: 21.5}
+        - {x: -1, y: 21.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -8.5}
+        - {x: 6, y: -21.5}
+        - {x: 20, y: -21.5}
+        - {x: 24, y: -18.5}
+        - {x: 24, y: -8.5}
+    - name: mmx_x4_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 997
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -6.5}
+        - {x: -16, y: -21.5}
+        - {x: 24, y: -21.5}
+        - {x: 24, y: 21.5}
+        - {x: -7, y: 21.5}
+        - {x: -14, y: 17.5}
+        - {x: -24, y: 7.5}
+    - name: mmx_x4_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 997
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 22}
+        - {x: -19.5, y: 4}
+        - {x: -19.5, y: -11}
+        - {x: -0.5, y: -22}
+        - {x: 19.5, y: -22}
+        - {x: 19.5, y: 17}
+        - {x: 17.5, y: 22}
+    - name: mmx_x4_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 997
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 941
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 942
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -22.5}
+        - {x: 17.5, y: -15.5}
+        - {x: 17.5, y: 18.5}
+        - {x: 15.5, y: 22.5}
+        - {x: -6.5, y: 22.5}
+        - {x: -17.5, y: 6.5}
+        - {x: -17.5, y: -20.5}
+        - {x: -15.5, y: -22.5}
+        - {x: -6.5, y: -22.5}
+        - {x: -5.5, y: -20.5}
+        - {x: -5.5, y: -17.5}
+        - {x: -4.5, y: -22.5}
+    - name: mmx_x4_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 941
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 12.5}
+        - {x: 16, y: 22.5}
+        - {x: -5, y: 22.5}
+        - {x: -13, y: 20.5}
+        - {x: -20, y: 7.5}
+        - {x: -20, y: -14.5}
+        - {x: -15, y: -21.5}
+        - {x: -11, y: -21.5}
+        - {x: -7, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 18, y: -19.5}
+        - {x: 19, y: -16.5}
+        - {x: 20, y: -8.5}
+    - name: mmx_x4_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 941
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 22}
+        - {x: -9, y: 19}
+        - {x: -21, y: 3}
+        - {x: -21, y: -14}
+        - {x: 3, y: -22}
+        - {x: 20, y: -22}
+        - {x: 21, y: -21}
+        - {x: 21, y: 20}
+        - {x: 19, y: 22}
+    - name: mmx_x4_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 940
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22}
+        - {x: -10, y: 21}
+        - {x: -21, y: 9}
+        - {x: -21, y: -3}
+        - {x: -20, y: -5}
+        - {x: 5, y: -22}
+        - {x: 19, y: -22}
+        - {x: 21, y: -21}
+        - {x: 21, y: 16}
+        - {x: 17, y: 22}
+    - name: mmx_x4_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 940
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 22.5}
+        - {x: -19, y: 3.5}
+        - {x: -19, y: -11.5}
+        - {x: -5, y: -22.5}
+        - {x: 19, y: -22.5}
+        - {x: 19, y: 22.5}
+    - name: mmx_x4_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 940
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 23}
+        - {x: -14, y: 11}
+        - {x: -16, y: 3}
+        - {x: -16, y: -21}
+        - {x: -13, y: -23}
+        - {x: 16, y: -23}
+        - {x: 16, y: 23}
+    - name: mmx_x4_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 940
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 887
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 21}
+        - {x: -18, y: -3}
+        - {x: -18, y: -21}
+        - {x: 18, y: -21}
+        - {x: 18, y: 21}
+    - name: mmx_x4_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 886
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 18}
+        - {x: -8, y: 8}
+        - {x: -16, y: 1}
+        - {x: -23, y: -6}
+        - {x: -23, y: -15}
+        - {x: -19, y: -18}
+        - {x: -6, y: -18}
+        - {x: 21, y: -10}
+        - {x: 23, y: -9}
+        - {x: 23, y: 18}
+    - name: mmx_x4_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 886
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 886
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 886
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -21.5}
+        - {x: 5, y: -21.5}
+        - {x: 19, y: -16.5}
+        - {x: 19, y: 11.5}
+        - {x: 18, y: 21.5}
+        - {x: -1, y: 21.5}
+        - {x: -19, y: 9.5}
+    - name: mmx_x4_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 886
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 886
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 21.5}
+        - {x: -20.5, y: 4.5}
+        - {x: -20.5, y: -2.5}
+        - {x: -15.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 22.5, y: 5.5}
+        - {x: 10.5, y: 21.5}
+      - - {x: -22.5, y: -6.5}
+        - {x: -22.5, y: -11.5}
+        - {x: -20.5, y: -13.5}
+        - {x: -17.5, y: -13.5}
+        - {x: -16.5, y: -11.5}
+        - {x: -16.5, y: -9.5}
+        - {x: -18.5, y: -7.5}
+    - name: mmx_x4_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 886
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 17, y: 20.5}
+        - {x: 15, y: 21.5}
+        - {x: -2, y: 21.5}
+        - {x: -17, y: 2.5}
+        - {x: -17, y: -21.5}
+        - {x: -3, y: -21.5}
+        - {x: -2, y: -20.5}
+        - {x: 1, y: -13.5}
+        - {x: 1, y: -19.5}
+    - name: mmx_x4_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 828
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24}
+        - {x: -17, y: 20}
+        - {x: -17, y: -24}
+        - {x: 16, y: -24}
+        - {x: 17, y: -19}
+        - {x: 17, y: 24}
+    - name: mmx_x4_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 828
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24}
+        - {x: -17, y: 20}
+        - {x: -17, y: -24}
+        - {x: 16, y: -24}
+        - {x: 17, y: -19}
+        - {x: 17, y: 24}
+    - name: mmx_x4_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 825
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -17, y: 19.5}
+        - {x: -17, y: -25.5}
+        - {x: 4, y: -25.5}
+        - {x: 17, y: 0.5}
+        - {x: 17, y: 19.5}
+        - {x: 10, y: 25.5}
+    - name: mmx_x4_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 825
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -17, y: 19.5}
+        - {x: -17, y: -25.5}
+        - {x: 4, y: -25.5}
+        - {x: 17, y: 0.5}
+        - {x: 17, y: 19.5}
+        - {x: 10, y: 25.5}
+    - name: mmx_x4_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 822
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 26.5}
+        - {x: -13, y: 26.5}
+        - {x: -17, y: 21.5}
+        - {x: -16, y: 6.5}
+        - {x: -17, y: 0.5}
+        - {x: -17, y: -23.5}
+        - {x: -14, y: -26.5}
+        - {x: -3, y: -26.5}
+        - {x: 6, y: -18.5}
+        - {x: 17, y: 3.5}
+        - {x: 17, y: 19.5}
+    - name: mmx_x4_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 822
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 26.5}
+        - {x: -13, y: 26.5}
+        - {x: -17, y: 21.5}
+        - {x: -16, y: 6.5}
+        - {x: -17, y: 0.5}
+        - {x: -17, y: -23.5}
+        - {x: -14, y: -26.5}
+        - {x: -3, y: -26.5}
+        - {x: 6, y: -18.5}
+        - {x: 17, y: 3.5}
+        - {x: 17, y: 19.5}
+    - name: mmx_x4_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 821
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 28.5}
+        - {x: -17, y: -28.5}
+        - {x: 9, y: -28.5}
+        - {x: 17, y: -22.5}
+        - {x: 17, y: 24.5}
+        - {x: 10, y: 28.5}
+    - name: mmx_x4_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 821
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 28.5}
+        - {x: -17, y: -28.5}
+        - {x: 9, y: -28.5}
+        - {x: 17, y: -22.5}
+        - {x: 17, y: 24.5}
+        - {x: 10, y: 28.5}
+    - name: mmx_x4_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 823
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 2.5}
+        - {x: 18.5, y: 18.5}
+        - {x: 4.5, y: 26.5}
+        - {x: -18.5, y: 26.5}
+        - {x: -18.5, y: -26.5}
+        - {x: -9.5, y: -26.5}
+        - {x: -4.5, y: -21.5}
+        - {x: 3.5, y: -25.5}
+        - {x: 9.5, y: -11.5}
+    - name: mmx_x4_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 824
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 2.5}
+        - {x: 18.5, y: 18.5}
+        - {x: 4.5, y: 26.5}
+        - {x: -18.5, y: 26.5}
+        - {x: -18.5, y: -26.5}
+        - {x: -9.5, y: -26.5}
+        - {x: -4.5, y: -21.5}
+        - {x: 3.5, y: -25.5}
+        - {x: 9.5, y: -11.5}
+    - name: mmx_x4_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 825
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -20, y: 23}
+        - {x: -20, y: 1}
+        - {x: -18, y: -9}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 20, y: -2}
+        - {x: 20, y: 21}
+        - {x: 11, y: 25}
+    - name: mmx_x4_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 825
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -20, y: 23}
+        - {x: -20, y: 1}
+        - {x: -18, y: -9}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 20, y: -2}
+        - {x: 20, y: 21}
+        - {x: 11, y: 25}
+    - name: mmx_x4_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 760
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 26}
+        - {x: -19.5, y: -14}
+        - {x: -15.5, y: -26}
+        - {x: 8.5, y: -26}
+        - {x: 19.5, y: -10}
+        - {x: 19.5, y: 16}
+        - {x: 8.5, y: 26}
+    - name: mmx_x4_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 760
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 26}
+        - {x: -19.5, y: -14}
+        - {x: -15.5, y: -26}
+        - {x: 8.5, y: -26}
+        - {x: 19.5, y: -10}
+        - {x: 19.5, y: 16}
+        - {x: 8.5, y: 26}
+    - name: mmx_x4_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 759
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26.5}
+        - {x: -19, y: 19.5}
+        - {x: -19, y: -14.5}
+        - {x: -16, y: -26.5}
+        - {x: 9, y: -26.5}
+        - {x: 19, y: -11.5}
+        - {x: 19, y: 16.5}
+        - {x: 6, y: 26.5}
+    - name: mmx_x4_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 759
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26.5}
+        - {x: -19, y: 19.5}
+        - {x: -19, y: -14.5}
+        - {x: -16, y: -26.5}
+        - {x: 9, y: -26.5}
+        - {x: 19, y: -11.5}
+        - {x: 19, y: 16.5}
+        - {x: 6, y: 26.5}
+    - name: mmx_x4_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 756
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 25.5}
+        - {x: -11, y: 25.5}
+        - {x: -19, y: 19.5}
+        - {x: -19, y: -23.5}
+        - {x: -17, y: -25.5}
+        - {x: 6, y: -25.5}
+        - {x: 17, y: -8.5}
+        - {x: 19, y: -3.5}
+        - {x: 19, y: 23.5}
+    - name: mmx_x4_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 756
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 25.5}
+        - {x: -11, y: 25.5}
+        - {x: -19, y: 19.5}
+        - {x: -19, y: -23.5}
+        - {x: -17, y: -25.5}
+        - {x: 6, y: -25.5}
+        - {x: 17, y: -8.5}
+        - {x: 19, y: -3.5}
+        - {x: 19, y: 23.5}
+    - name: mmx_x4_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 757
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 23.5}
+        - {x: -19, y: 19.5}
+        - {x: -19, y: -23.5}
+        - {x: 4, y: -23.5}
+        - {x: 12, y: -21.5}
+        - {x: 19, y: 1.5}
+        - {x: 19, y: 16.5}
+        - {x: 11, y: 23.5}
+    - name: mmx_x4_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 757
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 23.5}
+        - {x: -19, y: 19.5}
+        - {x: -19, y: -23.5}
+        - {x: 4, y: -23.5}
+        - {x: 12, y: -21.5}
+        - {x: 19, y: 1.5}
+        - {x: 19, y: 16.5}
+        - {x: 11, y: 23.5}
+    - name: mmx_x4_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 760
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 21.5}
+        - {x: -12, y: 20.5}
+        - {x: -21, y: 5.5}
+        - {x: -21, y: -21.5}
+        - {x: 16, y: -21.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 18.5}
+        - {x: 13, y: 21.5}
+    - name: mmx_x4_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 760
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 21.5}
+        - {x: -12, y: 20.5}
+        - {x: -21, y: 5.5}
+        - {x: -21, y: -21.5}
+        - {x: 16, y: -21.5}
+        - {x: 21, y: -9.5}
+        - {x: 21, y: 18.5}
+        - {x: 13, y: 21.5}
+    - name: mmx_x4_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 707
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: -6.5}
+        - {x: 22.5, y: 2.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 9.5, y: 22.5}
+        - {x: -12.5, y: 22.5}
+        - {x: -22.5, y: -2.5}
+        - {x: -22.5, y: -22.5}
+        - {x: 14.5, y: -22.5}
+    - name: mmx_x4_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 707
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: -6.5}
+        - {x: 22.5, y: 2.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 9.5, y: 22.5}
+        - {x: -12.5, y: 22.5}
+        - {x: -22.5, y: -2.5}
+        - {x: -22.5, y: -22.5}
+        - {x: 14.5, y: -22.5}
+    - name: mmx_x4_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 707
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 14}
+        - {x: 10, y: 23}
+        - {x: -9, y: 23}
+        - {x: -11, y: 22}
+        - {x: -19, y: 7}
+        - {x: -22, y: -9}
+        - {x: -22, y: -23}
+        - {x: 12, y: -23}
+        - {x: 7, y: -4}
+        - {x: 22, y: 3}
+    - name: mmx_x4_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 707
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 14}
+        - {x: 10, y: 23}
+        - {x: -9, y: 23}
+        - {x: -11, y: 22}
+        - {x: -19, y: 7}
+        - {x: -22, y: -9}
+        - {x: -22, y: -23}
+        - {x: 12, y: -23}
+        - {x: 7, y: -4}
+        - {x: 22, y: 3}
+    - name: mmx_x4_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 707
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 23}
+        - {x: -22.5, y: -2}
+        - {x: -22.5, y: -23}
+        - {x: 11.5, y: -23}
+        - {x: 22.5, y: -10}
+        - {x: 22.5, y: 17}
+        - {x: 16.5, y: 23}
+    - name: mmx_x4_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 707
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 23}
+        - {x: -22.5, y: -2}
+        - {x: -22.5, y: -23}
+        - {x: 11.5, y: -23}
+        - {x: 22.5, y: -10}
+        - {x: 22.5, y: 17}
+        - {x: 16.5, y: 23}
+    - name: mmx_x4_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 708
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 22}
+        - {x: -10, y: 22}
+        - {x: -25, y: 11}
+        - {x: -25, y: -21}
+        - {x: -15, y: -22}
+        - {x: 13, y: -22}
+        - {x: 19, y: -17}
+        - {x: 25, y: 1}
+        - {x: 25, y: 20}
+    - name: mmx_x4_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 708
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 22}
+        - {x: -10, y: 22}
+        - {x: -25, y: 11}
+        - {x: -25, y: -21}
+        - {x: -15, y: -22}
+        - {x: 13, y: -22}
+        - {x: 19, y: -17}
+        - {x: 25, y: 1}
+        - {x: 25, y: 20}
+    - name: mmx_x4_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 656
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -0.5}
+        - {x: 6, y: -1.5}
+        - {x: 7, y: -0.5}
+        - {x: 8, y: -1.5}
+        - {x: 13, y: -1.5}
+        - {x: 16, y: -0.5}
+        - {x: 23, y: 2.5}
+        - {x: 27, y: 5.5}
+        - {x: 27, y: 13.5}
+        - {x: 23, y: 21.5}
+        - {x: -21, y: 21.5}
+        - {x: -27, y: 18.5}
+        - {x: -27, y: -5.5}
+        - {x: -14, y: -12.5}
+        - {x: 4, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 25, y: -15.5}
+        - {x: 21, y: -8.5}
+        - {x: 12, y: -3.5}
+    - name: mmx_x4_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 656
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -0.5}
+        - {x: 6, y: -1.5}
+        - {x: 7, y: -0.5}
+        - {x: 8, y: -1.5}
+        - {x: 13, y: -1.5}
+        - {x: 16, y: -0.5}
+        - {x: 23, y: 2.5}
+        - {x: 27, y: 5.5}
+        - {x: 27, y: 13.5}
+        - {x: 23, y: 21.5}
+        - {x: -21, y: 21.5}
+        - {x: -27, y: 18.5}
+        - {x: -27, y: -5.5}
+        - {x: -14, y: -12.5}
+        - {x: 4, y: -21.5}
+        - {x: 17, y: -21.5}
+        - {x: 25, y: -15.5}
+        - {x: 21, y: -8.5}
+        - {x: 12, y: -3.5}
+    - name: mmx_x4_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 655
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -24.5, y: 20.5}
+        - {x: -26.5, y: 13.5}
+        - {x: -26.5, y: -5.5}
+        - {x: -0.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 26.5, y: -10.5}
+        - {x: 26.5, y: 21.5}
+    - name: mmx_x4_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 655
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -24.5, y: 20.5}
+        - {x: -26.5, y: 13.5}
+        - {x: -26.5, y: -5.5}
+        - {x: -0.5, y: -21.5}
+        - {x: 22.5, y: -21.5}
+        - {x: 26.5, y: -10.5}
+        - {x: 26.5, y: 21.5}
+    - name: mmx_x4_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 655
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 22}
+        - {x: -24, y: 12}
+        - {x: -24, y: -11}
+        - {x: -8, y: -22}
+        - {x: 18, y: -22}
+        - {x: 24, y: -9}
+        - {x: 24, y: 22}
+    - name: mmx_x4_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 655
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 22}
+        - {x: -24, y: 12}
+        - {x: -24, y: -11}
+        - {x: -8, y: -22}
+        - {x: 18, y: -22}
+        - {x: 24, y: -9}
+        - {x: 24, y: 22}
+    - name: mmx_x4_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 655
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 22.5}
+        - {x: -21.5, y: 0.5}
+        - {x: -21.5, y: -15.5}
+        - {x: -14.5, y: -22.5}
+        - {x: 14.5, y: -22.5}
+        - {x: 21.5, y: -1.5}
+        - {x: 21.5, y: 17.5}
+        - {x: 11.5, y: 22.5}
+    - name: mmx_x4_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 655
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 22.5}
+        - {x: -21.5, y: 0.5}
+        - {x: -21.5, y: -15.5}
+        - {x: -14.5, y: -22.5}
+        - {x: 14.5, y: -22.5}
+        - {x: 21.5, y: -1.5}
+        - {x: 21.5, y: 17.5}
+        - {x: 11.5, y: 22.5}
+    - name: mmx_x4_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 604
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 23}
+        - {x: -19.5, y: 6}
+        - {x: -19.5, y: -23}
+        - {x: 1.5, y: -23}
+        - {x: 19.5, y: -3}
+        - {x: 19.5, y: 16}
+        - {x: 10.5, y: 23}
+    - name: mmx_x4_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 604
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 23}
+        - {x: -19.5, y: 6}
+        - {x: -19.5, y: -23}
+        - {x: 1.5, y: -23}
+        - {x: 19.5, y: -3}
+        - {x: 19.5, y: 16}
+        - {x: 10.5, y: 23}
+    - name: mmx_x4_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 605
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -22.5}
+        - {x: 8, y: -19.5}
+        - {x: 23, y: 5.5}
+        - {x: 23, y: 15.5}
+        - {x: 16, y: 22.5}
+        - {x: -7, y: 22.5}
+        - {x: -23, y: 13.5}
+        - {x: -23, y: -19.5}
+        - {x: -21, y: -22.5}
+        - {x: -12, y: -22.5}
+        - {x: -11, y: -20.5}
+        - {x: -11, y: -17.5}
+        - {x: -10, y: -22.5}
+    - name: mmx_x4_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 605
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -22.5}
+        - {x: 8, y: -19.5}
+        - {x: 23, y: 5.5}
+        - {x: 23, y: 15.5}
+        - {x: 16, y: 22.5}
+        - {x: -7, y: 22.5}
+        - {x: -23, y: 13.5}
+        - {x: -23, y: -19.5}
+        - {x: -21, y: -22.5}
+        - {x: -12, y: -22.5}
+        - {x: -11, y: -20.5}
+        - {x: -11, y: -17.5}
+        - {x: -10, y: -22.5}
+    - name: mmx_x4_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 604
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 22.5}
+        - {x: -24.5, y: 3.5}
+        - {x: -24.5, y: -14.5}
+        - {x: -19.5, y: -21.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 24.5, y: -8.5}
+        - {x: 24.5, y: 21.5}
+        - {x: 21.5, y: 22.5}
+    - name: mmx_x4_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 604
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 22.5}
+        - {x: -24.5, y: 3.5}
+        - {x: -24.5, y: -14.5}
+        - {x: -19.5, y: -21.5}
+        - {x: -15.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 24.5, y: -8.5}
+        - {x: 24.5, y: 21.5}
+        - {x: 21.5, y: 22.5}
+    - name: mmx_x4_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 604
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 22}
+        - {x: -26.5, y: 6}
+        - {x: -26.5, y: -14}
+        - {x: -5.5, y: -22}
+        - {x: 14.5, y: -22}
+        - {x: 26.5, y: -8}
+        - {x: 26.5, y: 22}
+    - name: mmx_x4_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 604
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 22}
+        - {x: -26.5, y: 6}
+        - {x: -26.5, y: -14}
+        - {x: -5.5, y: -22}
+        - {x: 14.5, y: -22}
+        - {x: 26.5, y: -8}
+        - {x: 26.5, y: 22}
+    - name: mmx_x4_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 552
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 22}
+        - {x: -26, y: 19}
+        - {x: -26, y: -6}
+        - {x: -10, y: -22}
+        - {x: 26, y: -22}
+        - {x: 26, y: 22}
+    - name: mmx_x4_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 552
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 22}
+        - {x: -26, y: 19}
+        - {x: -26, y: -6}
+        - {x: -10, y: -22}
+        - {x: 26, y: -22}
+        - {x: 26, y: 22}
+    - name: mmx_x4_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 552
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -12.5}
+        - {x: -10, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 17, y: -21.5}
+        - {x: 25, y: -9.5}
+        - {x: 25, y: 22.5}
+    - name: mmx_x4_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 552
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22.5}
+        - {x: -25, y: 13.5}
+        - {x: -25, y: -12.5}
+        - {x: -10, y: -22.5}
+        - {x: 14, y: -22.5}
+        - {x: 17, y: -21.5}
+        - {x: 25, y: -9.5}
+        - {x: 25, y: 22.5}
+    - name: mmx_x4_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 552
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 23}
+        - {x: -22, y: 2}
+        - {x: -22, y: -16}
+        - {x: -14, y: -23}
+        - {x: 16, y: -23}
+        - {x: 22, y: -2}
+        - {x: 22, y: 23}
+    - name: mmx_x4_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 552
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 23}
+        - {x: -22, y: 2}
+        - {x: -22, y: -16}
+        - {x: -14, y: -23}
+        - {x: 16, y: -23}
+        - {x: 22, y: -2}
+        - {x: 22, y: 23}
+    - name: mmx_x4_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 552
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 23.5}
+        - {x: -8.5, y: 23.5}
+        - {x: -10.5, y: 22.5}
+        - {x: -16.5, y: 12.5}
+        - {x: -20.5, y: -4.5}
+        - {x: -20.5, y: -22.5}
+        - {x: -18.5, y: -23.5}
+        - {x: -5.5, y: -23.5}
+        - {x: 20.5, y: -0.5}
+        - {x: 20.5, y: 16.5}
+        - {x: 18.5, y: 20.5}
+    - name: mmx_x4_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 552
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 23.5}
+        - {x: -8.5, y: 23.5}
+        - {x: -10.5, y: 22.5}
+        - {x: -16.5, y: 12.5}
+        - {x: -20.5, y: -4.5}
+        - {x: -20.5, y: -22.5}
+        - {x: -18.5, y: -23.5}
+        - {x: -5.5, y: -23.5}
+        - {x: 20.5, y: -0.5}
+        - {x: 20.5, y: 16.5}
+        - {x: 18.5, y: 20.5}
+    - name: mmx_x4_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 501
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 21}
+        - {x: -6, y: 21}
+        - {x: -12, y: 12}
+        - {x: -15, y: 6}
+        - {x: -23, y: -6}
+        - {x: -23, y: -19}
+        - {x: -21, y: -21}
+        - {x: 1, y: -21}
+        - {x: 4, y: -11}
+        - {x: 23, y: -2}
+        - {x: 23, y: 18}
+    - name: mmx_x4_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 501
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 13}
+        - {x: 21.5, y: 17}
+        - {x: 11.5, y: 21}
+        - {x: -7.5, y: 21}
+        - {x: -16.5, y: 7}
+        - {x: -22.5, y: -2}
+        - {x: -22.5, y: -21}
+        - {x: 0.5, y: -21}
+        - {x: 3.5, y: -11}
+        - {x: 18.5, y: 0}
+        - {x: 22.5, y: 3}
+    - name: mmx_x4_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 500
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 18}
+        - {x: -1, y: 18}
+        - {x: -5, y: 17}
+        - {x: -28, y: -5}
+        - {x: -28, y: -15}
+        - {x: -24, y: -18}
+        - {x: -7, y: -18}
+        - {x: 17, y: -8}
+        - {x: 28, y: -2}
+        - {x: 28, y: 9}
+    - name: mmx_x4_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 500
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 18}
+        - {x: -1, y: 18}
+        - {x: -5, y: 17}
+        - {x: -28, y: -5}
+        - {x: -28, y: -15}
+        - {x: -24, y: -18}
+        - {x: -7, y: -18}
+        - {x: 17, y: -8}
+        - {x: 28, y: -2}
+        - {x: 28, y: 9}
+    - name: mmx_x4_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 500
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 500
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 500
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 500
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 442
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 21.5}
+        - {x: -24, y: 8.5}
+        - {x: -24, y: -20.5}
+        - {x: -23, y: -21.5}
+        - {x: -5, y: -21.5}
+        - {x: 24, y: -0.5}
+        - {x: 24, y: 15.5}
+        - {x: 14, y: 21.5}
+    - name: mmx_x4_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 442
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 21.5}
+        - {x: -24, y: 8.5}
+        - {x: -24, y: -20.5}
+        - {x: -23, y: -21.5}
+        - {x: -5, y: -21.5}
+        - {x: 24, y: -0.5}
+        - {x: 24, y: 15.5}
+        - {x: 14, y: 21.5}
+    - name: mmx_x4_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 442
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 22}
+        - {x: -20.5, y: 8}
+        - {x: -22.5, y: 2}
+        - {x: -22.5, y: -22}
+        - {x: 15.5, y: -22}
+        - {x: 22.5, y: -2}
+        - {x: 22.5, y: 22}
+    - name: mmx_x4_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 442
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 22}
+        - {x: -20.5, y: 8}
+        - {x: -22.5, y: 2}
+        - {x: -22.5, y: -22}
+        - {x: 15.5, y: -22}
+        - {x: 22.5, y: -2}
+        - {x: 22.5, y: 22}
+    - name: mmx_x4_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 442
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 21.5}
+        - {x: -22, y: 6.5}
+        - {x: -22, y: -8.5}
+        - {x: -19, y: -21.5}
+        - {x: 22, y: -21.5}
+        - {x: 22, y: 19.5}
+        - {x: 12, y: 21.5}
+    - name: mmx_x4_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 442
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 21.5}
+        - {x: -22, y: 6.5}
+        - {x: -22, y: -8.5}
+        - {x: -19, y: -21.5}
+        - {x: 22, y: -21.5}
+        - {x: 22, y: 19.5}
+        - {x: 12, y: 21.5}
+    - name: mmx_x4_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 442
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -21.5}
+        - {x: 15, y: -21.5}
+        - {x: 22, y: -17.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 19.5}
+        - {x: 18, y: 21.5}
+        - {x: -6, y: 21.5}
+        - {x: -24, y: 2.5}
+        - {x: -24, y: -21.5}
+        - {x: -10, y: -21.5}
+        - {x: -9, y: -20.5}
+        - {x: -6, y: -13.5}
+        - {x: -6, y: -19.5}
+    - name: mmx_x4_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 442
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -21.5}
+        - {x: 15, y: -21.5}
+        - {x: 22, y: -17.5}
+        - {x: 24, y: -11.5}
+        - {x: 24, y: 19.5}
+        - {x: 18, y: 21.5}
+        - {x: -6, y: 21.5}
+        - {x: -24, y: 2.5}
+        - {x: -24, y: -21.5}
+        - {x: -10, y: -21.5}
+        - {x: -9, y: -20.5}
+        - {x: -6, y: -13.5}
+        - {x: -6, y: -19.5}
+    - name: mmx_x4_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 379
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25.5}
+        - {x: -16, y: 22.5}
+        - {x: -16, y: -6.5}
+        - {x: -5, y: -25.5}
+        - {x: 14, y: -25.5}
+        - {x: 16, y: -21.5}
+        - {x: 16, y: 13.5}
+        - {x: 11, y: 25.5}
+    - name: mmx_x4_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 373
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 28.5}
+        - {x: 6, y: 25.5}
+        - {x: 6, y: 21.5}
+        - {x: 6, y: 23.5}
+        - {x: 3, y: 26.5}
+        - {x: -2, y: 28.5}
+        - {x: -7, y: 28.5}
+        - {x: -17, y: 21.5}
+        - {x: -17, y: -3.5}
+        - {x: -10, y: -20.5}
+        - {x: -5, y: -28.5}
+        - {x: 4, y: -28.5}
+        - {x: 17, y: -16.5}
+        - {x: 17, y: 28.5}
+    - name: mmx_x4_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 375
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 27.5}
+        - {x: 7, y: 23.5}
+        - {x: 7, y: 20.5}
+        - {x: 5, y: 17.5}
+        - {x: 6, y: 17.5}
+        - {x: 5, y: 19.5}
+        - {x: 2, y: 22.5}
+        - {x: -4, y: 27.5}
+        - {x: -7, y: 27.5}
+        - {x: -17, y: 15.5}
+        - {x: -17, y: -13.5}
+        - {x: -3, y: -27.5}
+        - {x: 17, y: -27.5}
+        - {x: 17, y: 27.5}
+    - name: mmx_x4_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 374
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 11}
+        - {x: -16, y: -4}
+        - {x: 6, y: -29}
+        - {x: 16, y: -29}
+        - {x: 16, y: 29}
+        - {x: 7, y: 29}
+        - {x: -6, y: 24}
+    - name: mmx_x4_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 374
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 373
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 376
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25.5}
+        - {x: -19, y: 22.5}
+        - {x: -19, y: 1.5}
+        - {x: -12, y: -25.5}
+        - {x: 14, y: -25.5}
+        - {x: 19, y: -13.5}
+        - {x: 19, y: 21.5}
+        - {x: 8, y: 25.5}
+    - name: mmx_x4_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 376
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25.5}
+        - {x: -19, y: 22.5}
+        - {x: -19, y: 1.5}
+        - {x: -12, y: -25.5}
+        - {x: 14, y: -25.5}
+        - {x: 19, y: -13.5}
+        - {x: 19, y: 21.5}
+        - {x: 8, y: 25.5}
+    - name: mmx_x4_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 370
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 28.5}
+        - {x: 10.5, y: 25.5}
+        - {x: 10.5, y: 21.5}
+        - {x: 9.5, y: 28.5}
+        - {x: -8.5, y: 28.5}
+        - {x: -21.5, y: 21.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -8.5, y: -28.5}
+        - {x: 13.5, y: -28.5}
+        - {x: 21.5, y: -20.5}
+        - {x: 21.5, y: 28.5}
+    - name: mmx_x4_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 372
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: -0.5}
+        - {x: 21.5, y: 28.5}
+        - {x: 12.5, y: 28.5}
+        - {x: 10.5, y: 25.5}
+        - {x: 10.5, y: 21.5}
+        - {x: 9.5, y: 28.5}
+        - {x: -16.5, y: 28.5}
+        - {x: -21.5, y: 26.5}
+        - {x: -21.5, y: -24.5}
+        - {x: -19.5, y: -28.5}
+        - {x: 11.5, y: -28.5}
+        - {x: 21.5, y: -15.5}
+        - {x: 21.5, y: -9.5}
+        - {x: 20.5, y: -5.5}
+    - name: mmx_x4_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 307
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 27.5}
+        - {x: 12, y: 23.5}
+        - {x: 12, y: 20.5}
+        - {x: 10, y: 17.5}
+        - {x: 11, y: 17.5}
+        - {x: 10, y: 19.5}
+        - {x: 8, y: 27.5}
+        - {x: -8, y: 27.5}
+        - {x: -22, y: 22.5}
+        - {x: -22, y: -4.5}
+        - {x: 0, y: -27.5}
+        - {x: 22, y: -27.5}
+        - {x: 22, y: 27.5}
+    - name: mmx_x4_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 307
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 27.5}
+        - {x: 12, y: 23.5}
+        - {x: 12, y: 20.5}
+        - {x: 10, y: 17.5}
+        - {x: 11, y: 17.5}
+        - {x: 10, y: 19.5}
+        - {x: 8, y: 27.5}
+        - {x: -8, y: 27.5}
+        - {x: -22, y: 22.5}
+        - {x: -22, y: -4.5}
+        - {x: 0, y: -27.5}
+        - {x: 22, y: -27.5}
+        - {x: 22, y: 27.5}
+    - name: mmx_x4_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 307
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 16}
+        - {x: -20.5, y: -2}
+        - {x: 1.5, y: -29}
+        - {x: 20.5, y: -29}
+        - {x: 20.5, y: 29}
+        - {x: 6.5, y: 29}
+        - {x: -5.5, y: 26}
+    - name: mmx_x4_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 308
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 16}
+        - {x: -20.5, y: -2}
+        - {x: 1.5, y: -29}
+        - {x: 20.5, y: -29}
+        - {x: 20.5, y: 29}
+        - {x: 6.5, y: 29}
+        - {x: -5.5, y: 26}
+    - name: mmx_x4_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 309
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 26.5}
+        - {x: -19, y: 22.5}
+        - {x: -19, y: -21.5}
+        - {x: -17, y: -26.5}
+        - {x: 11, y: -26.5}
+        - {x: 19, y: -8.5}
+        - {x: 19, y: 22.5}
+        - {x: 6, y: 26.5}
+    - name: mmx_x4_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 308
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 26.5}
+        - {x: -19, y: 22.5}
+        - {x: -19, y: -21.5}
+        - {x: -17, y: -26.5}
+        - {x: 11, y: -26.5}
+        - {x: 19, y: -8.5}
+        - {x: 19, y: 22.5}
+        - {x: 6, y: 26.5}
+    - name: mmx_x4_sheet_159
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 308
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 27}
+        - {x: -18.5, y: -6}
+        - {x: -8.5, y: -27}
+        - {x: 6.5, y: -27}
+        - {x: 18.5, y: 4}
+        - {x: 18.5, y: 20}
+        - {x: 6.5, y: 27}
+    - name: mmx_x4_sheet_160
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 308
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 27}
+        - {x: -18.5, y: -6}
+        - {x: -8.5, y: -27}
+        - {x: 6.5, y: -27}
+        - {x: 18.5, y: 4}
+        - {x: 18.5, y: 20}
+        - {x: 6.5, y: 27}
+    - name: mmx_x4_sheet_161
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 225
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_162
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 232
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 23.5}
+        - {x: 3.5, y: 20.5}
+        - {x: 3.5, y: 18.5}
+        - {x: 3.5, y: 23.5}
+        - {x: -16.5, y: 23.5}
+        - {x: -16.5, y: -23.5}
+        - {x: 8.5, y: -23.5}
+        - {x: 16.5, y: 0.5}
+        - {x: 16.5, y: 23.5}
+    - name: mmx_x4_sheet_163
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 225
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_164
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 226
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_165
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 234
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_166
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 237
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 23.5}
+        - {x: -16.5, y: -23.5}
+        - {x: 14.5, y: -23.5}
+        - {x: 16.5, y: -21.5}
+        - {x: 16.5, y: 17.5}
+        - {x: 12.5, y: 23.5}
+    - name: mmx_x4_sheet_167
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 232
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_168
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 231
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_169
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 235
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_170
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 240
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 24}
+        - {x: -9, y: 24}
+        - {x: -17, y: 21}
+        - {x: -17, y: -11}
+        - {x: -15, y: -23}
+        - {x: -12, y: -24}
+        - {x: 5, y: -24}
+        - {x: 16, y: -17}
+        - {x: 17, y: -5}
+        - {x: 17, y: 17}
+    - name: mmx_x4_sheet_171
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 260
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_172
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 267
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_173
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 247
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -18, y: -29}
+        - {x: 3, y: -29}
+        - {x: 18, y: -10}
+        - {x: 18, y: 20}
+        - {x: 6, y: 29}
+    - name: mmx_x4_sheet_174
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 245
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 29.5}
+        - {x: -17, y: -29.5}
+        - {x: 10, y: -29.5}
+        - {x: 17, y: -17.5}
+        - {x: 17, y: 29.5}
+    - name: mmx_x4_sheet_175
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 246
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -18, y: -29}
+        - {x: 3, y: -29}
+        - {x: 18, y: -10}
+        - {x: 18, y: 20}
+        - {x: 6, y: 29}
+    - name: mmx_x4_sheet_176
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 166
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 24}
+        - {x: -16, y: 24}
+        - {x: -16, y: -24}
+        - {x: 9, y: -24}
+        - {x: 16, y: -5}
+        - {x: 16, y: 9}
+    - name: mmx_x4_sheet_177
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 211
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_178
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 166
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: 12, y: -24}
+        - {x: 17, y: -23}
+        - {x: 17, y: 19}
+        - {x: 14, y: 24}
+    - name: mmx_x4_sheet_179
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 166
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 24}
+        - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: 13, y: -24}
+        - {x: 17, y: -11}
+        - {x: 17, y: 14}
+        - {x: 12, y: 22}
+    - name: mmx_x4_sheet_180
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 162
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 26}
+        - {x: -17.5, y: -26}
+        - {x: 17.5, y: -26}
+        - {x: 17.5, y: 15}
+        - {x: 13.5, y: 26}
+    - name: mmx_x4_sheet_181
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 167
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 23}
+        - {x: -10.5, y: 23}
+        - {x: -16.5, y: 4}
+        - {x: -16.5, y: -23}
+        - {x: 16.5, y: -23}
+        - {x: 16.5, y: -8}
+        - {x: 11.5, y: 21}
+    - name: mmx_x4_sheet_182
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 167
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 22.5}
+        - {x: -4.5, y: 22.5}
+        - {x: -9.5, y: 20.5}
+        - {x: -16.5, y: 1.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 16.5, y: -22.5}
+        - {x: 16.5, y: -3.5}
+        - {x: 13.5, y: 18.5}
+    - name: mmx_x4_sheet_183
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 167
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 23}
+        - {x: -10.5, y: 23}
+        - {x: -16.5, y: 4}
+        - {x: -16.5, y: -23}
+        - {x: 16.5, y: -23}
+        - {x: 16.5, y: -8}
+        - {x: 11.5, y: 21}
+    - name: mmx_x4_sheet_184
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 167
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 22.5}
+        - {x: -4.5, y: 22.5}
+        - {x: -9.5, y: 20.5}
+        - {x: -16.5, y: 1.5}
+        - {x: -16.5, y: -22.5}
+        - {x: 16.5, y: -22.5}
+        - {x: 16.5, y: -3.5}
+        - {x: 13.5, y: 18.5}
+    - name: mmx_x4_sheet_185
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 167
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 22}
+        - {x: -16.5, y: -4}
+        - {x: -16.5, y: -22}
+        - {x: 16.5, y: -22}
+        - {x: 16.5, y: 0}
+        - {x: 15.5, y: 22}
+    - name: mmx_x4_sheet_186
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 167
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 22}
+        - {x: -16.5, y: -4}
+        - {x: -16.5, y: -22}
+        - {x: 16.5, y: -22}
+        - {x: 16.5, y: 0}
+        - {x: 15.5, y: 22}
+    - name: mmx_x4_sheet_187
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 100
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 28}
+        - {x: -22, y: 28}
+        - {x: -22, y: -21}
+        - {x: -19, y: -28}
+        - {x: 22, y: -28}
+        - {x: 22, y: 12}
+        - {x: 18, y: 24}
+    - name: mmx_x4_sheet_188
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 152
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_189
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 145
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_190
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 107
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_191
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 103
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24}
+        - {x: -18, y: 23}
+        - {x: -18, y: -13}
+        - {x: -15, y: -24}
+        - {x: 15, y: -24}
+        - {x: 18, y: -22}
+        - {x: 18, y: 17}
+        - {x: 16, y: 24}
+    - name: mmx_x4_sheet_192
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 102
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 23}
+        - {x: 5, y: 24}
+        - {x: -18, y: 24}
+        - {x: -18, y: -3}
+        - {x: -8, y: 0}
+        - {x: -6, y: 1}
+        - {x: -7, y: 0}
+        - {x: -13, y: -2}
+        - {x: -12, y: -24}
+        - {x: 18, y: -24}
+        - {x: 18, y: 16}
+        - {x: 14, y: 24}
+    - name: mmx_x4_sheet_193
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 142
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_194
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 102
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 24.5}
+        - {x: -17, y: -24.5}
+        - {x: 17, y: -24.5}
+        - {x: 17, y: 24.5}
+    - name: mmx_x4_sheet_195
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 127
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_196
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 137
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_197
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 116
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_198
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 101
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_199
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_200
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 75
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_201
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 20
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 8.5}
+        - {x: 22.5, y: 6.5}
+        - {x: 20.5, y: 3.5}
+        - {x: 21.5, y: 7.5}
+        - {x: 25.5, y: 8.5}
+        - {x: 27.5, y: 17.5}
+        - {x: 23.5, y: 23.5}
+        - {x: 20.5, y: 26.5}
+        - {x: 19.5, y: 28.5}
+        - {x: 14.5, y: 30.5}
+        - {x: 12.5, y: 28.5}
+        - {x: 13.5, y: 25.5}
+        - {x: 8.5, y: 27.5}
+        - {x: 10.5, y: 27.5}
+        - {x: 16.5, y: 33.5}
+        - {x: 16.5, y: 36.5}
+        - {x: -21.5, y: 36.5}
+        - {x: -27.5, y: 32.5}
+        - {x: -27.5, y: -29.5}
+        - {x: -20.5, y: -36.5}
+        - {x: 22.5, y: -36.5}
+        - {x: 27.5, y: -30.5}
+        - {x: 27.5, y: 8.5}
+    - name: mmx_x4_sheet_202
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_203
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 21
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -9}
+        - {x: 18, y: -1}
+        - {x: 7, y: 27}
+        - {x: -11, y: 27}
+        - {x: -19, y: 5}
+        - {x: -19, y: -27}
+        - {x: 19, y: -27}
+    - name: mmx_x4_sheet_204
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 67
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_205
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 14
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 34}
+        - {x: -22, y: 28}
+        - {x: -20, y: 28}
+        - {x: -22, y: 26}
+        - {x: -22, y: -34}
+        - {x: 21, y: -34}
+        - {x: 22, y: -33}
+        - {x: 22, y: 34}
+    - name: mmx_x4_sheet_206
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 72
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_207
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 23
+        width: 6
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_208
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 22
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21}
+        - {x: -17.5, y: -21}
+        - {x: 17.5, y: -21}
+        - {x: 17.5, y: 13}
+        - {x: 11.5, y: 21}
+    - name: mmx_x4_sheet_209
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 22
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22}
+        - {x: -11, y: 16}
+        - {x: -14, y: 11}
+        - {x: -15, y: 3}
+        - {x: -12, y: 0}
+        - {x: -17, y: -10}
+        - {x: -17, y: -22}
+        - {x: 17, y: -22}
+        - {x: 17, y: 22}
+    - name: mmx_x4_sheet_210
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 20
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 21}
+        - {x: -17.5, y: 21}
+        - {x: -17.5, y: -21}
+        - {x: 8.5, y: -21}
+        - {x: 12.5, y: -20}
+        - {x: 17.5, y: -4}
+        - {x: 17.5, y: 13}
+    - name: mmx_x4_sheet_211
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 24}
+        - {x: -22, y: 18}
+        - {x: -22, y: -9}
+        - {x: -19, y: -24}
+        - {x: 22, y: -24}
+        - {x: 22, y: 17}
+        - {x: 20, y: 24}
+    - name: mmx_x4_sheet_212
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 39
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_213
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 61
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_214
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 22
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 19.5}
+        - {x: -11.5, y: 17.5}
+        - {x: -16.5, y: 8.5}
+        - {x: -16.5, y: -19.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 5.5}
+        - {x: 7.5, y: 19.5}
+    - name: mmx_x4_sheet_215
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 44
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_216
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 31
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_217
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 42
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx_x4_sheet_218
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 48
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
