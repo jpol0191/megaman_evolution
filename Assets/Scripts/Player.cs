@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEditor;
 
 [RequireComponent(typeof(Controller2D))]
 public class Player : MonoBehaviour {
@@ -28,7 +29,11 @@ public class Player : MonoBehaviour {
     //Animation variables
     private Animator animator;
     private Transform spriteBody;
-    private Vector2 gunLocation = new Vector2(2.0f,0.5f);
+
+    // Shot variables
+    private Vector3 gunLocation = new Vector3(2.0f,0.5f,-1);
+    public GameObject bulletObject;
+
 
     void Start() {
         controller = GetComponent<Controller2D>();
@@ -43,6 +48,10 @@ public class Player : MonoBehaviour {
     }
 
     void Update() {
+        // Reset animation triggers
+        animator.ResetTrigger("shot");
+
+        // Get player left and right input
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         int wallDirX = (controller.collisions.left) ? -1 : 1;
 
@@ -151,7 +160,15 @@ public class Player : MonoBehaviour {
     }
 
     void Shoot() {
-
+        GameObject bulletPrefab = AssetDatabase.LoadAssetAtPath("Assets/Models/Megaman/Bullet.prefab", typeof(GameObject)) as GameObject;
+        PlayerShot bullet = bulletPrefab.GetComponent<PlayerShot>();
+        bullet.chargeLevel = 0;
+        bullet.direction = Mathf.Sign(spriteBody.localScale.x);
+        gunLocation.x = Mathf.Sign(spriteBody.localScale.x) * Mathf.Abs(gunLocation.x);
+        bulletPrefab.transform.localScale = new Vector3(Mathf.Sign(gunLocation.x), 1, 1);
+        
+        GameObject bulletObj = Instantiate( bulletPrefab, gunLocation + transform.position, Quaternion.identity) as GameObject;
+        
     }
 }
 

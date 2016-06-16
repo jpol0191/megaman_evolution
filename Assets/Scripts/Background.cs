@@ -7,7 +7,6 @@ public class Background : MonoBehaviour {
     public Transform playerTransform;
     [Range(0,0.02f)]
     public float scrollSpeedMod;
-    Material mat;
 
     Renderer rend;
 	// Use this for initialization
