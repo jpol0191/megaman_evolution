@@ -53,7 +53,7 @@ public class PlatformController : RaycastController {
         return Mathf.Pow(x, a) / (Mathf.Pow(x,a) + Mathf.Pow(1-x,a));
     }
 
-    // Move bettween waypoints
+    // Move between waypoints
     Vector3 CalculatePlatformMovement() {
         if(Time.time < nextMoveTime) {
             return Vector3.zero;
