@@ -33,7 +33,12 @@ public class Player : MonoBehaviour {
     // Shot variables
     private Vector3 gunLocation = new Vector3(2.0f,0.5f,-1);
     public GameObject bulletObject;
-
+    public float shotCooldown;
+    public float chargeInterval;
+    private float shotTimetamp;
+    private float chargeTime;
+    private int chargeLevel;
+    
 
     void Start() {
         controller = GetComponent<Controller2D>();
@@ -45,11 +50,14 @@ public class Player : MonoBehaviour {
         // Initialize animation variables
         animator = GetComponent<Animator>();
         spriteBody = gameObject.GetComponentInChildren<SpriteRenderer>().transform;
+
+        Debug.Log(transform.GetChild(0).name);
     }
 
     void Update() {
         // Reset animation triggers
         animator.ResetTrigger("shot");
+        animator.SetBool("isShooting", false);
 
         // Get player left and right input
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
@@ -114,10 +122,47 @@ public class Player : MonoBehaviour {
 
         // Make player shoot 
         if (Input.GetKeyDown(KeyCode.Z)) {
-            animator.SetTrigger("shot");
+
+            // Shoot if shot cooldown is expired
+            if (shotTimetamp <= Time.time) {
+                chargeLevel = 0; 
+                shotTimetamp = Time.time + shotCooldown; //setting shot cooldown
+                if (!animator.GetBool("isJumping")) {
+                    if (animator.GetBool("isRunning")) {
+                        animator.SetBool("isShooting", true);
+                        Shoot();
+                    }
+                    animator.SetTrigger("shot");
+                }
+                else {
+                    animator.SetBool("isShooting", true);
+                    Shoot();
+                }
+            }
+
+
+        }
+        if (Input.GetKey(KeyCode.Z)) {
+            chargeTime += Time.deltaTime; 
         }
 
-
+        // Shoot a charge shot
+        if (Input.GetKeyUp(KeyCode.Z)) {
+            if (chargeTime >= chargeInterval * 2) {
+                Debug.Log("Shooting a charge shot level 2");
+                chargeLevel = 2;
+                animator.SetTrigger("chargeShot");
+                Shoot();
+            }
+            else if (chargeTime >= chargeInterval) {
+                Debug.Log("Shooting a charge shot level 1");
+                chargeLevel = 1;
+                animator.SetTrigger("chargeShot");
+                Shoot();
+            }
+            chargeLevel = 0;
+            chargeTime = 0;
+        }
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
@@ -162,9 +207,13 @@ public class Player : MonoBehaviour {
     void Shoot() {
         GameObject bulletPrefab = AssetDatabase.LoadAssetAtPath("Assets/Models/Megaman/Bullet.prefab", typeof(GameObject)) as GameObject;
         PlayerShot bullet = bulletPrefab.GetComponent<PlayerShot>();
-        bullet.chargeLevel = 0;
+        bullet.chargeLevel = chargeLevel;
         bullet.direction = Mathf.Sign(spriteBody.localScale.x);
         gunLocation.x = Mathf.Sign(spriteBody.localScale.x) * Mathf.Abs(gunLocation.x);
+        if (animator.GetBool("isWallSliding")) {
+            gunLocation.x *= -1;
+            bullet.direction *= -1;
+        }
         bulletPrefab.transform.localScale = new Vector3(Mathf.Sign(gunLocation.x), 1, 1);
         
         GameObject bulletObj = Instantiate( bulletPrefab, gunLocation + transform.position, Quaternion.identity) as GameObject;
