@@ -28,6 +28,7 @@ public class Player : MonoBehaviour {
 
     //Animation variables
     private Animator animator;
+    private Animator chargeAnimator;
     private Transform spriteBody;
 
     // Shot variables
@@ -38,6 +39,7 @@ public class Player : MonoBehaviour {
     private float shotTimetamp;
     private float chargeTime;
     private int chargeLevel;
+
     
 
     void Start() {
@@ -51,12 +53,13 @@ public class Player : MonoBehaviour {
         animator = GetComponent<Animator>();
         spriteBody = gameObject.GetComponentInChildren<SpriteRenderer>().transform;
 
-        Debug.Log(transform.GetChild(0).name);
+        chargeAnimator = transform.GetChild(1).GetComponent<Animator>();
     }
 
     void Update() {
         // Reset animation triggers
         animator.ResetTrigger("shot");
+        animator.ResetTrigger("chargeShot");
         animator.SetBool("isShooting", false);
 
         // Get player left and right input
@@ -143,11 +146,22 @@ public class Player : MonoBehaviour {
 
         }
         if (Input.GetKey(KeyCode.Z)) {
-            chargeTime += Time.deltaTime; 
+            chargeTime += Time.deltaTime;
+            // Animate the charging
+            if (chargeTime > 0 && chargeTime < chargeInterval ) {
+                chargeAnimator.SetInteger("chargeStage", 1);
+            }
+            else if (chargeTime > chargeInterval && chargeTime < chargeInterval * 2) {
+                chargeAnimator.SetInteger("chargeStage", 2);
+            }
+            else if (chargeTime > chargeInterval * 2) {
+                chargeAnimator.SetInteger("chargeStage", 3);
+            }
         }
 
         // Shoot a charge shot
         if (Input.GetKeyUp(KeyCode.Z)) {
+            chargeAnimator.SetInteger("chargeStage", 0);
             if (chargeTime >= chargeInterval * 2) {
                 Debug.Log("Shooting a charge shot level 2");
                 chargeLevel = 2;
