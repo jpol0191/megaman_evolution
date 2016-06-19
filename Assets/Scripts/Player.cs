@@ -40,6 +40,14 @@ public class Player : MonoBehaviour {
     private float chargeTime;
     private int chargeLevel;
 
+    // ----Sound-------
+    
+    // Charge sounds 
+    public AudioSource gunAudioSource;
+    public AudioClip[] chargeSounds;
+    IEnumerator chargeCoroutine;
+
+
     
 
     void Start() {
@@ -54,6 +62,7 @@ public class Player : MonoBehaviour {
         spriteBody = gameObject.GetComponentInChildren<SpriteRenderer>().transform;
 
         chargeAnimator = transform.GetChild(1).GetComponent<Animator>();
+        chargeCoroutine = PlayChargeSound();
     }
 
     void Update() {
@@ -125,9 +134,10 @@ public class Player : MonoBehaviour {
 
         // Make player shoot 
         if (Input.GetKeyDown(KeyCode.Z)) {
-
+            
             // Shoot if shot cooldown is expired
             if (shotTimetamp <= Time.time) {
+                StartCoroutine(chargeCoroutine);
                 chargeLevel = 0; 
                 shotTimetamp = Time.time + shotCooldown; //setting shot cooldown
                 if (!animator.GetBool("isJumping")) {
@@ -148,7 +158,7 @@ public class Player : MonoBehaviour {
         if (Input.GetKey(KeyCode.Z)) {
             chargeTime += Time.deltaTime;
             // Animate the charging
-            if (chargeTime > 0 && chargeTime < chargeInterval ) {
+            if (chargeTime > chargeInterval * 0.2f && chargeTime < chargeInterval ) {
                 chargeAnimator.SetInteger("chargeStage", 1);
             }
             else if (chargeTime > chargeInterval && chargeTime < chargeInterval * 2) {
@@ -161,6 +171,9 @@ public class Player : MonoBehaviour {
 
         // Shoot a charge shot
         if (Input.GetKeyUp(KeyCode.Z)) {
+            gunAudioSource.Stop();
+            StopCoroutine(chargeCoroutine);
+            chargeCoroutine = PlayChargeSound();
             chargeAnimator.SetInteger("chargeStage", 0);
             if (chargeTime >= chargeInterval * 2) {
                 Debug.Log("Shooting a charge shot level 2");
@@ -232,6 +245,17 @@ public class Player : MonoBehaviour {
         
         GameObject bulletObj = Instantiate( bulletPrefab, gunLocation + transform.position, Quaternion.identity) as GameObject;
         
+    }
+
+    IEnumerator PlayChargeSound() {
+        yield return new WaitForSeconds(.06f);
+        gunAudioSource.clip = chargeSounds[0];
+        gunAudioSource.loop = false;
+        gunAudioSource.Play();
+        yield return new WaitForSeconds(gunAudioSource.clip.length);
+        gunAudioSource.clip = chargeSounds[1];
+        gunAudioSource.loop = true;
+        gunAudioSource.Play();
     }
 }
 

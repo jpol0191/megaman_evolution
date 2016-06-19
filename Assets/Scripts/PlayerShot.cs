@@ -14,6 +14,9 @@ public class PlayerShot : Bullet {
     private int pierce;
     private Animator animator;
 
+    public AudioSource audioSource;
+    public AudioClip[] shotSounds;
+
 	// Use this for initialization
 	public override void Start () {
         base.Start();
@@ -29,6 +32,13 @@ public class PlayerShot : Bullet {
         pierce = shot[chargeLevel].pierce;
 
         animator.SetInteger("charge_Level",chargeLevel);
+        if (chargeLevel > 0 ) {
+            audioSource.clip = shotSounds[1];
+        }
+        else {
+            audioSource.clip = shotSounds[0];
+        }
+        audioSource.Play();
     }
 	
 	// Update is called once per frame
