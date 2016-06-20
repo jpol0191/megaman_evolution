@@ -62,7 +62,6 @@ public class Player : MonoBehaviour {
 
         gravity = -(2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-        print("Gravity: " + gravity + "  Jump Velocity: " + jumpVelocity);
 
         // Initialize animation variables
         animator = GetComponent<Animator>();
@@ -71,6 +70,8 @@ public class Player : MonoBehaviour {
         chargeCoroutine = PlayChargeSound();
 
         hurtTime = .5f;
+
+        gameObject.tag = "Player";
     }
 
     void Update() {
@@ -180,12 +181,14 @@ public class Player : MonoBehaviour {
                 Debug.Log("Shooting a charge shot level 2");
                 chargeLevel = 2;
                 animator.SetTrigger("chargeShot");
+                animator.SetBool("isShooting", true);
                 Shoot();
             }
             else if (chargeTime >= chargeInterval) {
                 Debug.Log("Shooting a charge shot level 1");
                 chargeLevel = 1;
                 animator.SetTrigger("chargeShot");
+                animator.SetBool("isShooting", true);
                 Shoot();
             }
             chargeLevel = 0;

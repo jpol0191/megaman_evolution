@@ -44,15 +44,24 @@ public class PlayerShot : Bullet {
 	// Update is called once per frame
 	public override void Update () {
         transform.Translate(this.speed * Time.deltaTime);
-        
 	}
 
     public override void OnTriggerEnter2D(Collider2D col) {
         base.OnTriggerEnter2D(col);
-
-        if (col.name != "Player") {
+        
+        if (col.tag == "Stage" ) {
             Destroy(gameObject);
-            
+        }
+
+        if (col.tag == "Enemy") {
+            Enemy enemyScript = col.GetComponent<Enemy>();
+            if (enemyScript) {
+                
+            }
+            pierce -= enemyScript.hardness;
+            if(pierce <= 0) {
+                Destroy(gameObject);
+            }
         }
     }
 

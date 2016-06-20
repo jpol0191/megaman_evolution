@@ -22,8 +22,7 @@ public class Goomba : Enemy {
     public override void Start () {
         base.Start();
         gravity = -(2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
-        jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-        print("Gravity: " + gravity + "  Jump Velocity: " + jumpVelocity);
+        //jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
 
     }
 	
