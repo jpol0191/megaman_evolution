@@ -11,6 +11,13 @@ public class Player : MonoBehaviour {
     float accelerationTimeGrounded = 0.0f;
     public float moveSpeed = 6;
 
+    // Player damage
+    public float damageDir; 
+    public bool isHurt;
+    private bool wasHurt;
+    public float hurtTime;
+    public Vector3 hurtVelocity;
+
     public Vector2 wallJumpClimb;
     public Vector2 wallJumpOff;
     public Vector2 wallLeap;
@@ -24,7 +31,7 @@ public class Player : MonoBehaviour {
     Vector3 velocity;
     float velocityXSmoothing;
 
-    Controller2D controller;
+    public Controller2D controller;
 
     //Animation variables
     private Animator animator;
@@ -40,7 +47,7 @@ public class Player : MonoBehaviour {
     private float chargeTime;
     private int chargeLevel;
 
-    // ----Sound-------
+    // ------Sound-------
     
     // Charge sounds 
     public AudioSource gunAudioSource;
@@ -60,9 +67,10 @@ public class Player : MonoBehaviour {
         // Initialize animation variables
         animator = GetComponent<Animator>();
         spriteBody = gameObject.GetComponentInChildren<SpriteRenderer>().transform;
-
         chargeAnimator = transform.GetChild(1).GetComponent<Animator>();
         chargeCoroutine = PlayChargeSound();
+
+        hurtTime = .5f;
     }
 
     void Update() {
@@ -75,6 +83,16 @@ public class Player : MonoBehaviour {
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         int wallDirX = (controller.collisions.left) ? -1 : 1;
 
+        // if player is hurt then override player input
+        if (isHurt) {
+            input.x = damageDir;
+            if (!wasHurt) {
+                animator.SetTrigger("hurtTrigger");
+                animator.SetBool("isHurt", true);
+                StartCoroutine(HurtTimer(hurtTime, animator));
+                wasHurt = true;
+            }
+        }
         // Move Player across the x axis
         float targetVelocityX = input.x * moveSpeed;
         velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
@@ -113,23 +131,7 @@ public class Player : MonoBehaviour {
 
         // Make Player jump if they press the space button
         if (Input.GetKeyDown(KeyCode.Space)) {
-            if (wallSliding) {
-                if (wallDirX == input.x) {
-                    velocity.x = -wallDirX * wallJumpClimb.x;
-                    velocity.y = wallJumpClimb.y;
-                }
-                else if (input.x == 0) {
-                    velocity.x = -wallDirX * wallJumpOff.x;
-                    velocity.y = wallJumpOff.y;
-                }
-                else {
-                    velocity.x = -wallDirX * wallLeap.x;
-                    velocity.y = wallLeap.y;
-                }
-            }
-            if (controller.collisions.below) {
-                velocity.y = jumpVelocity;
-            }
+            Jump(input, wallDirX, wallSliding);
         }
 
         // Make player shoot 
@@ -152,9 +154,8 @@ public class Player : MonoBehaviour {
                     Shoot();
                 }
             }
-
-
         }
+
         if (Input.GetKey(KeyCode.Z)) {
             chargeTime += Time.deltaTime;
             // Animate the charging
@@ -191,7 +192,10 @@ public class Player : MonoBehaviour {
             chargeTime = 0;
         }
 
+        // Add effect of gravity 
         velocity.y += gravity * Time.deltaTime;
+
+        // Finally move the player
         controller.Move(velocity * Time.deltaTime);
 
 
@@ -231,6 +235,30 @@ public class Player : MonoBehaviour {
        
     }
 
+    private void Jump(Vector2 input, int wallDirX, bool wallSliding) {
+        if (wallSliding) {
+            if (wallDirX == input.x) {
+                velocity.x = -wallDirX * wallJumpClimb.x;
+                velocity.y = wallJumpClimb.y;
+            }
+            else if (input.x == 0) {
+                velocity.x = -wallDirX * wallJumpOff.x;
+                velocity.y = wallJumpOff.y;
+            }
+            else {
+                velocity.x = -wallDirX * wallLeap.x;
+                velocity.y = wallLeap.y;
+            }
+        }
+        if (controller.collisions.below) {
+            velocity.y = jumpVelocity;
+        }
+    }
+
+    public void Jump() {
+        velocity.y = jumpVelocity;
+    }
+
     void Shoot() {
         GameObject bulletPrefab = AssetDatabase.LoadAssetAtPath("Assets/Models/Megaman/Bullet.prefab", typeof(GameObject)) as GameObject;
         PlayerShot bullet = bulletPrefab.GetComponent<PlayerShot>();
@@ -243,7 +271,7 @@ public class Player : MonoBehaviour {
         }
         bulletPrefab.transform.localScale = new Vector3(Mathf.Sign(gunLocation.x), 1, 1);
         
-        GameObject bulletObj = Instantiate( bulletPrefab, gunLocation + transform.position, Quaternion.identity) as GameObject;
+        Instantiate( bulletPrefab, gunLocation + transform.position, Quaternion.identity);
         
     }
 
@@ -256,6 +284,15 @@ public class Player : MonoBehaviour {
         gunAudioSource.clip = chargeSounds[1];
         gunAudioSource.loop = true;
         gunAudioSource.Play();
+    }
+
+    IEnumerator HurtTimer(float n, Animator anim) {
+        
+        yield return new WaitForSeconds(n);
+        isHurt = false;
+        wasHurt = false;
+        anim.SetBool("isHurt", false);
+        Debug.Log("Reseting the hurt bool. Hurt time was: "+ n);
     }
 }
 

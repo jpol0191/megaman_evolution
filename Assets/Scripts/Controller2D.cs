@@ -28,10 +28,8 @@ public class Controller2D : RaycastController {
             DescendSlope(ref velocity);
         }
 
-        // if statment if i want to require input to wall slide
-        //if(velocity.x != 0) {
-            HorizontalCollisions(ref velocity);
-        //}
+        HorizontalCollisions(ref velocity);
+        
         if(velocity.y != 0) {
             VeritcalCollisions(ref velocity);
         }
@@ -43,6 +41,7 @@ public class Controller2D : RaycastController {
         }
     }
 
+    //Raycast code to sense Horizontal Collisions
     void HorizontalCollisions(ref Vector3 velocity) {
         float directionX = collisions.faceDirection;
         float rayLength = Mathf.Abs(velocity.x) + skinWidth;
