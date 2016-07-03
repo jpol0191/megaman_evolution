@@ -3,16 +3,20 @@ using System.Collections;
 
 public class Goomba : Enemy {
 
+    public int damage;
+
+    // prefabs
+    public GameObject explosion;
 
     // Physics
     private float gravity;
     public float jumpHeight = 4;
     public float timeToJumpApex = 0.4f;
-    private float jumpVelocity;
     float accelerationTimeAirborne = 0.1f;
     float accelerationTimeGrounded = 0.0f;
     Vector3 velocity;
     float velocityXSmoothing;
+    
 
     private float input = -1;
 
@@ -22,8 +26,6 @@ public class Goomba : Enemy {
     public override void Start () {
         base.Start();
         gravity = -(2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
-        //jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
-
     }
 	
 	// Update is called once per frame
@@ -39,38 +41,9 @@ public class Goomba : Enemy {
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
+        if (hp <= 0) isAlive = false;
+
         if (isAlive) {
-            for (int i = 0; i < controller.horizontalRayCount; i++) {
-
-                Vector3 rayOrigin = controller.raycastOrigins.bottomLeft;
-                rayOrigin += (controller.horizontalRaycastSpacing * i) * Vector3.up;
-                Debug.DrawRay(rayOrigin, Vector3.left, Color.green);
-                RaycastHit2D hitPlayer = Physics2D.Raycast(rayOrigin, Vector3.left, 1, playerMask);
-
-                if (hitPlayer) {
-                    Player playerScript = hitPlayer.transform.GetComponent<Player>();
-                    if (hitPlayer.distance <= 0.1f) {
-                        playerScript.isHurt = true;
-                        playerScript.damageDir = -1;
-                        continue;
-                    }
-                }
-
-                rayOrigin = controller.raycastOrigins.bottomRight;
-                rayOrigin += (controller.horizontalRaycastSpacing * i) * Vector3.up;
-                Debug.DrawRay(rayOrigin, Vector3.right, Color.green);
-                hitPlayer = Physics2D.Raycast(rayOrigin, Vector3.right, 1, playerMask);
-
-                if (hitPlayer) {
-                    Player playerScript = hitPlayer.transform.GetComponent<Player>();
-                    if (hitPlayer.distance <= 0.1f) {
-                        playerScript.isHurt = true;
-                        playerScript.damageDir = 1;
-                        continue;
-                    }
-                }
-            }
-
 
             for (int i = 0; i < controller.verticalRayCount; i++) {
                 Vector3 rayOrigin = controller.raycastOrigins.topLeft;
@@ -83,18 +56,79 @@ public class Goomba : Enemy {
                     Player playerScript = hitPlayer.transform.GetComponent<Player>();
                     if (hitPlayer.distance <= 0.1f && !playerScript.controller.collisions.below) {
                         playerScript.Jump();
-                        isAlive = false;
-                        animator.SetBool("isDead", true);
-                        audioSource.Play();
-                        StartCoroutine(Die());
+                        Death(true);
+                        
+                        continue;
                     }
                 }
-            } 
+            }
+
+            if (isAlive) {
+                for (int i = 0; i < controller.horizontalRayCount; i++) {
+
+                    Vector3 rayOrigin = controller.raycastOrigins.bottomLeft;
+                    rayOrigin += (controller.horizontalRaycastSpacing * i) * Vector3.up;
+                    Debug.DrawRay(rayOrigin, Vector3.left, Color.green);
+                    RaycastHit2D hitPlayer = Physics2D.Raycast(rayOrigin, Vector3.left, 1, playerMask);
+
+                    if (hitPlayer) {
+                        Player playerScript = hitPlayer.transform.GetComponent<Player>();
+                        if (hitPlayer.distance <= 0.1f) {
+                            if (!playerScript.isHurt) {
+                                playerScript.isHurt = true;
+                                playerScript.hp -= damage;
+                                playerScript.damageDir = -1;
+                                
+                                continue;
+                            }
+                        }
+                    }
+
+                    rayOrigin = controller.raycastOrigins.bottomRight;
+                    rayOrigin += (controller.horizontalRaycastSpacing * i) * Vector3.up;
+                    Debug.DrawRay(rayOrigin, Vector3.right, Color.green);
+                    hitPlayer = Physics2D.Raycast(rayOrigin, Vector3.right, 1, playerMask);
+
+                    if (hitPlayer) {
+                        Player playerScript = hitPlayer.transform.GetComponent<Player>();
+                        if (hitPlayer.distance <= 0.1f) {
+                            if (!playerScript.isHurt) {
+                                playerScript.isHurt = true;
+                                playerScript.hp -= damage;
+                                playerScript.damageDir = 1;
+                                
+                                continue;
+                            }
+                        }
+                    }
+                } 
+            }
+
+
+            
+        }
+        else {
+            Death(false);
         }
     }
 
-    IEnumerator Die() {
+    private void Death(bool stepedOn) {
+        isAlive = false;
+        if (stepedOn) {
+            animator.SetBool("isDead", true);
+            audioSource.Play();
+        }
+        else {
+            //GameObject explosion = AssetDatabase.LoadAssetAtPath("Assets/Models/Enemies/effects/explosions/SmallExplosion.prefab", typeof(GameObject)) as GameObject;
+            Instantiate(explosion, transform.position, Quaternion.identity);
+        }
+        StartCoroutine(Die());
+        GetComponent<Goomba>().enabled = false;
+        GetComponent<Goomba>().enabled = false;
+     
+    }
 
+    IEnumerator Die() {
         yield return new WaitForSeconds(deathTime);
         Destroy(gameObject);
     }

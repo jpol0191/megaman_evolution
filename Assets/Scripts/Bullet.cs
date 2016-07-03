@@ -21,7 +21,6 @@ public class Bullet : MonoBehaviour {
 	}
 
     public virtual void OnTriggerEnter2D(Collider2D col) {
-        Debug.Log("Trigger entered with: "+ col.name);
         
     }
 }

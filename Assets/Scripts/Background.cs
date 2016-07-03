@@ -16,9 +16,11 @@ public class Background : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        
-        transform.position = new Vector2(cameraTransform.position.x, cameraTransform.position.y);
-        float x = Mathf.Repeat(playerTransform.position.x * scrollSpeedMod, 1);
-        rend.sharedMaterial.SetTextureOffset("_MainTex", new Vector2(x, 0));
+        // Only run if player exist.
+        if (playerTransform) {
+            transform.position = new Vector3(cameraTransform.position.x, cameraTransform.position.y,10);
+            float x = Mathf.Repeat(playerTransform.position.x * scrollSpeedMod, 1);
+            rend.sharedMaterial.SetTextureOffset("_MainTex", new Vector2(x, 0));
+        }
     }
 }

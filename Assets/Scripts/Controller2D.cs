@@ -192,6 +192,4 @@ public class Controller2D : RaycastController {
             slopeAngle = 0;
         }
     }
-
-   
 }

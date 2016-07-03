@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
-using UnityEditor;
+
+
+
 
 [RequireComponent(typeof(Controller2D))]
 public class Player : MonoBehaviour {
@@ -11,12 +14,25 @@ public class Player : MonoBehaviour {
     float accelerationTimeGrounded = 0.0f;
     public float moveSpeed = 6;
 
+    //prefabs
+    public GameObject deathAnimation;
+    public GameObject bulletPrefab;
+
     // Player damage
+    public int hp;
+    private int maxHp;
+    public GameObject hpBar;
+    private Image hpBarImage;
+    public bool isAlive;
     public float damageDir; 
     public bool isHurt;
     private bool wasHurt;
     public float hurtTime;
     public Vector3 hurtVelocity;
+    public AudioClip hurtSound;
+
+    // Disable Controls
+    public bool disableInput;
 
     public Vector2 wallJumpClimb;
     public Vector2 wallJumpOff;
@@ -34,8 +50,8 @@ public class Player : MonoBehaviour {
     public Controller2D controller;
 
     //Animation variables
-    private Animator animator;
-    private Animator chargeAnimator;
+    public Animator animator;
+    public Animator chargeAnimator;
     private Transform spriteBody;
 
     // Shot variables
@@ -44,7 +60,7 @@ public class Player : MonoBehaviour {
     public float shotCooldown;
     public float chargeInterval;
     private float shotTimetamp;
-    private float chargeTime;
+    public float chargeTime;
     private int chargeLevel;
 
     // ------Sound-------
@@ -58,8 +74,10 @@ public class Player : MonoBehaviour {
     
 
     void Start() {
+        // Grab controller component
         controller = GetComponent<Controller2D>();
 
+        // Physics variables
         gravity = -(2 * jumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         jumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
 
@@ -69,12 +87,28 @@ public class Player : MonoBehaviour {
         chargeAnimator = transform.GetChild(1).GetComponent<Animator>();
         chargeCoroutine = PlayChargeSound();
 
+        // Initialize misc.
+        maxHp = hp;
+        hpBarImage = hpBar.GetComponent<Image>();
+        isAlive = true;
         hurtTime = .5f;
-
         gameObject.tag = "Player";
     }
 
     void Update() {
+
+        // if hp is zero or below player is not alive
+        if (hp <= 0) isAlive = false;
+
+        hpBarImage.fillAmount = (float) hp / maxHp;
+
+        // Check if player is alive
+        if (!isAlive) {
+            // GameObject deathAnimation = AssetDatabase.LoadAssetAtPath("Assets/Models/Megaman/DeathAnimation.prefab", typeof(GameObject)) as GameObject;
+            Instantiate(deathAnimation, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+
         // Reset animation triggers
         animator.ResetTrigger("shot");
         animator.ResetTrigger("chargeShot");
@@ -83,6 +117,7 @@ public class Player : MonoBehaviour {
         // Get player left and right input
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         int wallDirX = (controller.collisions.left) ? -1 : 1;
+        if (disableInput) input = Vector2.zero;
 
         // if player is hurt then override player input
         if (isHurt) {
@@ -132,67 +167,73 @@ public class Player : MonoBehaviour {
 
         // Make Player jump if they press the space button
         if (Input.GetKeyDown(KeyCode.Space)) {
-            Jump(input, wallDirX, wallSliding);
+            if (!disableInput) {
+                Jump(input, wallDirX, wallSliding);
+            }
         }
 
         // Make player shoot 
         if (Input.GetKeyDown(KeyCode.Z)) {
-            
-            // Shoot if shot cooldown is expired
-            if (shotTimetamp <= Time.time) {
-                StartCoroutine(chargeCoroutine);
-                chargeLevel = 0; 
-                shotTimetamp = Time.time + shotCooldown; //setting shot cooldown
-                if (!animator.GetBool("isJumping")) {
-                    if (animator.GetBool("isRunning")) {
+
+            if (!disableInput) {
+                // Shoot if shot cooldown is expired
+                if (shotTimetamp <= Time.time) {
+                    StartCoroutine(chargeCoroutine);
+                    chargeLevel = 0;
+                    shotTimetamp = Time.time + shotCooldown; //setting shot cooldown
+                    if (!animator.GetBool("isJumping")) {
+                        if (animator.GetBool("isRunning")) {
+                            animator.SetBool("isShooting", true);
+                            Shoot();
+                        }
+                        animator.SetTrigger("shot");
+                    }
+                    else {
                         animator.SetBool("isShooting", true);
                         Shoot();
                     }
-                    animator.SetTrigger("shot");
-                }
-                else {
-                    animator.SetBool("isShooting", true);
-                    Shoot();
-                }
+                } 
             }
         }
 
         if (Input.GetKey(KeyCode.Z)) {
-            chargeTime += Time.deltaTime;
-            // Animate the charging
-            if (chargeTime > chargeInterval * 0.2f && chargeTime < chargeInterval ) {
-                chargeAnimator.SetInteger("chargeStage", 1);
-            }
-            else if (chargeTime > chargeInterval && chargeTime < chargeInterval * 2) {
-                chargeAnimator.SetInteger("chargeStage", 2);
-            }
-            else if (chargeTime > chargeInterval * 2) {
-                chargeAnimator.SetInteger("chargeStage", 3);
+            if (!disableInput) {
+                chargeTime += Time.deltaTime;
+                // Animate the charging
+                if (chargeTime > chargeInterval * 0.2f && chargeTime < chargeInterval) {
+                    chargeAnimator.SetInteger("chargeStage", 1);
+                }
+                else if (chargeTime > chargeInterval && chargeTime < chargeInterval * 2) {
+                    chargeAnimator.SetInteger("chargeStage", 2);
+                }
+                else if (chargeTime > chargeInterval * 2) {
+                    chargeAnimator.SetInteger("chargeStage", 3);
+                } 
             }
         }
 
         // Shoot a charge shot
         if (Input.GetKeyUp(KeyCode.Z)) {
-            gunAudioSource.Stop();
-            StopCoroutine(chargeCoroutine);
-            chargeCoroutine = PlayChargeSound();
-            chargeAnimator.SetInteger("chargeStage", 0);
-            if (chargeTime >= chargeInterval * 2) {
-                Debug.Log("Shooting a charge shot level 2");
-                chargeLevel = 2;
-                animator.SetTrigger("chargeShot");
-                animator.SetBool("isShooting", true);
-                Shoot();
+            if (!disableInput) {
+                gunAudioSource.Stop();
+                StopCoroutine(chargeCoroutine);
+                chargeCoroutine = PlayChargeSound();
+                chargeAnimator.SetInteger("chargeStage", 0);
+                if (chargeTime >= chargeInterval * 2) {
+                    chargeLevel = 2;
+                    animator.SetTrigger("chargeShot");
+                    animator.SetBool("isShooting", true);
+                    Shoot();
+                }
+                else if (chargeTime >= chargeInterval) {
+                    chargeLevel = 1;
+                    animator.SetTrigger("chargeShot");
+                    animator.SetBool("isShooting", true);
+                    Shoot();
+                }
+                chargeLevel = 0;
+                chargeTime = 0; 
             }
-            else if (chargeTime >= chargeInterval) {
-                Debug.Log("Shooting a charge shot level 1");
-                chargeLevel = 1;
-                animator.SetTrigger("chargeShot");
-                animator.SetBool("isShooting", true);
-                Shoot();
-            }
-            chargeLevel = 0;
-            chargeTime = 0;
         }
 
         // Add effect of gravity 
@@ -209,7 +250,7 @@ public class Player : MonoBehaviour {
         }
         else {
             animator.SetBool("isJumping", true);
-            spriteBody.localScale = new Vector3(Mathf.Sign(velocity.x), 1, 1);
+            spriteBody.localScale = new Vector3((velocity.x == 0)? spriteBody.localScale.x : Mathf.Sign(velocity.x), 1, 1);
         }
 
         // Wall slide
@@ -238,6 +279,14 @@ public class Player : MonoBehaviour {
        
     }
 
+    public void PlayHurtSound() {
+        AudioSource.PlayClipAtPoint(hurtSound, transform.position);
+    }
+
+    public void HideSprite() {
+        spriteBody.GetComponent<SpriteRenderer>().enabled = false;
+    }
+
     private void Jump(Vector2 input, int wallDirX, bool wallSliding) {
         if (wallSliding) {
             if (wallDirX == input.x) {
@@ -263,7 +312,7 @@ public class Player : MonoBehaviour {
     }
 
     void Shoot() {
-        GameObject bulletPrefab = AssetDatabase.LoadAssetAtPath("Assets/Models/Megaman/Bullet.prefab", typeof(GameObject)) as GameObject;
+        // GameObject bulletPrefab = AssetDatabase.LoadAssetAtPath("Assets/Models/Megaman/Bullet.prefab", typeof(GameObject)) as GameObject;
         PlayerShot bullet = bulletPrefab.GetComponent<PlayerShot>();
         bullet.chargeLevel = chargeLevel;
         bullet.direction = Mathf.Sign(spriteBody.localScale.x);
@@ -290,12 +339,10 @@ public class Player : MonoBehaviour {
     }
 
     IEnumerator HurtTimer(float n, Animator anim) {
-        
         yield return new WaitForSeconds(n);
         isHurt = false;
         wasHurt = false;
         anim.SetBool("isHurt", false);
-        Debug.Log("Reseting the hurt bool. Hurt time was: "+ n);
     }
 }
 

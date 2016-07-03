@@ -25,8 +25,8 @@ public class PlayerShot : Bullet {
         
         // Building shots from lowest charge to highest
         shot.Add(new ShotStats(1, new Vector2 (10,0),1));
-        shot.Add(new ShotStats(2, new Vector2 (10,0),3));
-        shot.Add(new ShotStats(4, new Vector2 (10,0),5));
+        shot.Add(new ShotStats(4, new Vector2 (10,0),3));
+        shot.Add(new ShotStats(10, new Vector2 (10,0),5));
         speed = shot[chargeLevel].speed  * Mathf.Sign(direction);
         damage = shot[chargeLevel].damage;
         pierce = shot[chargeLevel].pierce;
@@ -45,7 +45,7 @@ public class PlayerShot : Bullet {
 	public override void Update () {
         transform.Translate(this.speed * Time.deltaTime);
 	}
-
+    
     public override void OnTriggerEnter2D(Collider2D col) {
         base.OnTriggerEnter2D(col);
         
@@ -56,7 +56,7 @@ public class PlayerShot : Bullet {
         if (col.tag == "Enemy") {
             Enemy enemyScript = col.GetComponent<Enemy>();
             if (enemyScript) {
-                
+                enemyScript.hp -= damage;
             }
             pierce -= enemyScript.hardness;
             if(pierce <= 0) {

@@ -9,6 +9,8 @@ public class CameraFollow : MonoBehaviour {
     public float lookSmoothTimeX;
     public float verticalSmoothTime;
     public Vector2 focusAreaSize;
+    public bool followPlayer;
+    public Vector2 bossRoomCamera;
 
     FocusArea focusArea;
 
@@ -19,25 +21,34 @@ public class CameraFollow : MonoBehaviour {
     float smoothVelocityY;
 
     void Start() {
-        focusArea = new FocusArea(target.GetComponent<BoxCollider2D>().bounds, focusAreaSize); 
+        focusArea = new FocusArea(target.GetComponent<BoxCollider2D>().bounds, focusAreaSize);
+        followPlayer = true;
 
     }
 
     void LateUpdate() {
-        focusArea.Update(target.GetComponent<BoxCollider2D>().bounds);
+        if (followPlayer) {
+            // Only run if player is exist
+            if (target) {
+                focusArea.Update(target.GetComponent<BoxCollider2D>().bounds);
 
-        Vector2 focusPosition = focusArea.center + Vector2.up * verticalOffset;
+                Vector2 focusPosition = focusArea.center + Vector2.up * verticalOffset;
 
-        if (focusArea.velocity.x != 0 ) {
-            lookAheadDirX = Mathf.Sign(focusArea.velocity.x);
+                if (focusArea.velocity.x != 0) {
+                    lookAheadDirX = Mathf.Sign(focusArea.velocity.x);
+                }
+
+                targetLookAheadX = lookAheadDirX * lookAheadDstX;
+                currentLookAheadX = Mathf.SmoothDamp(currentLookAheadX, targetLookAheadX, ref smoothLookVelocityX, lookSmoothTimeX);
+
+                focusPosition += Vector2.right * currentLookAheadX;
+
+                transform.position = (Vector3) focusPosition + Vector3.forward * -10;
+            }
         }
-
-        targetLookAheadX = lookAheadDirX * lookAheadDstX;
-        currentLookAheadX = Mathf.SmoothDamp(currentLookAheadX, targetLookAheadX, ref smoothLookVelocityX ,lookSmoothTimeX);
-
-        focusPosition += Vector2.right * currentLookAheadX;
-
-        transform.position = (Vector3) focusPosition + Vector3.forward * -10;
+        else {
+            transform.position = (Vector3) bossRoomCamera + Vector3.forward * -10;
+        }
     }
 
 

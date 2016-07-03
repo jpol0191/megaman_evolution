@@ -1,0 +1,2366 @@
+fileFormatVersion: 2
+guid: abda0a28b21b3a04a8d00c2eb9fb2314
+timeCreated: 1466963407
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: armor_suit_0
+    21300002: armor_suit_1
+    21300004: armor_suit_2
+    21300006: armor_suit_3
+    21300008: armor_suit_4
+    21300010: armor_suit_5
+    21300012: armor_suit_6
+    21300014: armor_suit_7
+    21300016: armor_suit_8
+    21300018: armor_suit_9
+    21300020: armor_suit_10
+    21300022: armor_suit_11
+    21300024: armor_suit_12
+    21300026: armor_suit_13
+    21300028: armor_suit_14
+    21300030: armor_suit_15
+    21300032: armor_suit_16
+    21300034: armor_suit_17
+    21300036: armor_suit_18
+    21300038: armor_suit_19
+    21300040: armor_suit_20
+    21300042: armor_suit_21
+    21300044: armor_suit_22
+    21300046: armor_suit_23
+    21300048: armor_suit_24
+    21300050: armor_suit_25
+    21300052: armor_suit_26
+    21300054: armor_suit_27
+    21300056: armor_suit_28
+    21300058: armor_suit_29
+    21300060: armor_suit_30
+    21300062: armor_suit_31
+    21300064: armor_suit_32
+    21300066: armor_suit_33
+    21300068: armor_suit_34
+    21300070: armor_suit_35
+    21300072: armor_suit_36
+    21300074: armor_suit_37
+    21300076: armor_suit_38
+    21300078: armor_suit_39
+    21300080: armor_suit_40
+    21300082: armor_suit_41
+    21300084: armor_suit_42
+    21300086: armor_suit_43
+    21300088: armor_suit_44
+    21300090: armor_suit_45
+    21300092: armor_suit_46
+    21300094: armor_suit_47
+    21300096: armor_suit_48
+    21300098: armor_suit_49
+    21300100: armor_suit_50
+    21300102: armor_suit_51
+    21300104: armor_suit_52
+    21300106: armor_suit_53
+    21300108: armor_suit_54
+    21300110: armor_suit_55
+    21300112: armor_suit_56
+    21300114: armor_suit_57
+    21300116: armor_suit_58
+    21300118: armor_suit_59
+    21300120: armor_suit_60
+    21300122: armor_suit_61
+    21300124: armor_suit_62
+    21300126: armor_suit_63
+    21300128: armor_suit_64
+    21300130: armor_suit_65
+    21300132: armor_suit_66
+    21300134: armor_suit_67
+    21300136: armor_suit_68
+    21300138: armor_suit_69
+    21300140: armor_suit_70
+    21300142: armor_suit_71
+    21300144: armor_suit_72
+    21300146: armor_suit_73
+    21300148: armor_suit_74
+    21300150: armor_suit_75
+    21300152: armor_suit_76
+    21300154: armor_suit_77
+    21300156: armor_suit_78
+    21300158: armor_suit_79
+    21300160: armor_suit_80
+    21300162: armor_suit_81
+    21300164: armor_suit_82
+    21300166: armor_suit_83
+    21300168: armor_suit_84
+    21300170: armor_suit_85
+    21300172: armor_suit_86
+    21300174: armor_suit_87
+    21300176: armor_suit_88
+    21300178: armor_suit_89
+    21300180: armor_suit_90
+    21300182: armor_suit_91
+    21300184: armor_suit_92
+    21300186: armor_suit_93
+    21300188: armor_suit_94
+    21300190: armor_suit_95
+    21300192: armor_suit_96
+    21300194: armor_suit_97
+    21300196: armor_suit_98
+    21300198: armor_suit_99
+    21300200: armor_suit_100
+    21300202: armor_suit_101
+    21300204: armor_suit_102
+    21300206: armor_suit_103
+    21300208: armor_suit_104
+    21300210: armor_suit_105
+    21300212: armor_suit_106
+    21300214: armor_suit_107
+    21300216: armor_suit_108
+    21300218: armor_suit_109
+    21300220: armor_suit_110
+    21300222: armor_suit_111
+    21300224: armor_suit_112
+    21300226: armor_suit_113
+    21300228: armor_suit_114
+    21300230: armor_suit_115
+    21300232: armor_suit_116
+    21300234: armor_suit_117
+    21300236: armor_suit_118
+    21300238: armor_suit_119
+    21300240: armor_suit_120
+    21300242: armor_suit_121
+    21300244: armor_suit_122
+    21300246: armor_suit_123
+    21300248: armor_suit_124
+    21300250: armor_suit_125
+    21300252: armor_suit_126
+    21300254: armor_suit_127
+    21300256: armor_suit_128
+    21300258: armor_suit_129
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: armor_suit_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 630
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 29.5}
+        - {x: -5, y: 28.5}
+        - {x: -25, y: 7.5}
+        - {x: -33, y: -21.5}
+        - {x: -33, y: -29.5}
+        - {x: 28, y: -29.5}
+        - {x: 33, y: -26.5}
+        - {x: 33, y: 12.5}
+        - {x: 14, y: 29.5}
+    - name: armor_suit_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 630
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.45066547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.0000076, y: 35.15741}
+        - {x: -6.0000076, y: 34.15741}
+        - {x: -22.000008, y: 13.15741}
+        - {x: -32.000008, y: -20.84259}
+        - {x: -32.000008, y: -28.84259}
+        - {x: 27.999992, y: -28.84259}
+        - {x: 31.999992, y: -19.84259}
+        - {x: 31.999992, y: 15.15741}
+        - {x: 12.999992, y: 35.15741}
+    - name: armor_suit_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 630
+        width: 60
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.40713412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.999985, y: 40.31488}
+        - {x: -5.0000153, y: 40.31488}
+        - {x: -8.000015, y: 39.31488}
+        - {x: -29.000015, y: 18.31488}
+        - {x: -30.000015, y: 9.31488}
+        - {x: -30.000015, y: -27.68512}
+        - {x: 18.999985, y: -27.68512}
+        - {x: 29.999985, y: -18.68512}
+        - {x: 29.999985, y: 23.31488}
+    - name: armor_suit_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 630
+        width: 55
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42325675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 41.525513}
+        - {x: -10.5, y: 40.525513}
+        - {x: -27.5, y: 25.525513}
+        - {x: -27.5, y: -30.474487}
+        - {x: 24.5, y: -30.474487}
+        - {x: 27.5, y: -27.474487}
+        - {x: 27.5, y: 16.525513}
+        - {x: 14.5, y: 41.525513}
+    - name: armor_suit_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 630
+        width: 55
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41229331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 42.31488}
+        - {x: -27.5, y: 30.31488}
+        - {x: -27.5, y: -20.68512}
+        - {x: -24.5, y: -29.68512}
+        - {x: 25.5, y: -29.68512}
+        - {x: 27.5, y: -24.68512}
+        - {x: 27.5, y: 28.31488}
+        - {x: 16.5, y: 42.31488}
+    - name: armor_suit_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 630
+        width: 56
+        height: 72
+      alignment: 9
+      pivot: {x: 0.49295262, y: 0.41777462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.6053467, y: 41.920227}
+        - {x: -9.605347, y: 40.920227}
+        - {x: -27.605347, y: 17.920227}
+        - {x: -27.605347, y: -29.079773}
+        - {x: -25.605347, y: -30.079773}
+        - {x: 26.394653, y: -30.079773}
+        - {x: 28.394653, y: -25.079773}
+        - {x: 28.394653, y: 23.920227}
+        - {x: 11.394653, y: 41.920227}
+    - name: armor_suit_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 630
+        width: 58
+        height: 71
+      alignment: 9
+      pivot: {x: 0.5204147, y: 0.3943808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.8159485, y: 42.998962}
+        - {x: -11.1840515, y: 42.998962}
+        - {x: -30.184052, y: 30.998962}
+        - {x: -30.184052, y: -13.001038}
+        - {x: -22.184052, y: -28.001038}
+        - {x: 19.815948, y: -28.001038}
+        - {x: 27.815948, y: -18.001038}
+        - {x: 27.815948, y: 20.998962}
+        - {x: 26.815948, y: 25.998962}
+    - name: armor_suit_8
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 630
+        width: 61
+        height: 71
+      alignment: 9
+      pivot: {x: 0.4999995, y: 0.40209186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.4999695, y: 42.451477}
+        - {x: -7.4999695, y: 41.451477}
+        - {x: -23.49997, y: 20.451477}
+        - {x: -30.49997, y: 8.451477}
+        - {x: -30.49997, y: -6.548523}
+        - {x: -19.49997, y: -27.548523}
+        - {x: -18.49997, y: -28.548523}
+        - {x: 30.50003, y: -28.548523}
+        - {x: 30.50003, y: 36.451477}
+        - {x: 16.50003, y: 42.451477}
+    - name: armor_suit_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 634
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 615
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 21}
+        - {x: -33, y: -1}
+        - {x: -33, y: -21}
+        - {x: 27, y: -21}
+        - {x: 33, y: -18}
+        - {x: 33, y: 21}
+    - name: armor_suit_11
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 626
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_12
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 626
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_13
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 641
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 626
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 645
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_16
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 620
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_17
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 631
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_18
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 625
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_19
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 622
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_20
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 624
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 616
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_22
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 614
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 539
+        width: 55
+        height: 73
+      alignment: 9
+      pivot: {x: 0.49379587, y: 0.42053556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.1587734, y: 42.300903}
+        - {x: -27.158773, y: 36.300903}
+        - {x: -27.158773, y: -30.699097}
+        - {x: 27.841227, y: -30.699097}
+        - {x: 27.841227, y: 31.300903}
+        - {x: 10.841227, y: 42.300903}
+    - name: armor_suit_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 533
+        width: 55
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4018408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 44.86194}
+        - {x: -10.5, y: 43.86194}
+        - {x: -26.5, y: 25.861938}
+        - {x: -27.5, y: 21.861938}
+        - {x: -27.5, y: -27.138062}
+        - {x: -24.5, y: -30.138062}
+        - {x: 20.5, y: -30.138062}
+        - {x: 27.5, y: -7.1380615}
+        - {x: 27.5, y: 16.861938}
+        - {x: 8.5, y: 44.86194}
+    - name: armor_suit_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 535
+        width: 55
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41389546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 44.543945}
+        - {x: -27.5, y: 28.543945}
+        - {x: -27.5, y: -31.456055}
+        - {x: 18.5, y: -31.456055}
+        - {x: 27.5, y: -20.456055}
+        - {x: 27.5, y: 24.543945}
+        - {x: 16.5, y: 44.543945}
+    - name: armor_suit_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 533
+        width: 55
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5148726, y: 0.39638755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.682007, y: 45.270935}
+        - {x: -13.317993, y: 45.270935}
+        - {x: -28.317993, y: 20.270935}
+        - {x: -28.317993, y: -12.729065}
+        - {x: -19.317993, y: -17.729065}
+        - {x: -16.317993, y: -15.729065}
+        - {x: -18.317993, y: -24.729065}
+        - {x: -17.317993, y: -29.729065}
+        - {x: 14.682007, y: -29.729065}
+        - {x: 26.682007, y: -14.729065}
+        - {x: 26.682007, y: 15.270935}
+        - {x: 21.682007, y: 25.270935}
+    - name: armor_suit_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 536
+        width: 55
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5148726, y: 0.39354885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.317993, y: 44.270935}
+        - {x: -28.317993, y: 21.270935}
+        - {x: -28.317993, y: -17.729065}
+        - {x: -19.317993, y: -18.729065}
+        - {x: -16.317993, y: -16.729065}
+        - {x: -18.317993, y: -28.729065}
+        - {x: 19.682007, y: -28.729065}
+        - {x: 26.682007, y: -7.729065}
+        - {x: 26.682007, y: 20.270935}
+        - {x: 8.682007, y: 44.270935}
+    - name: armor_suit_28
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 536
+        width: 55
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5074363, y: 0.42365396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.908997, y: 43.225952}
+        - {x: -27.908997, y: 20.225952}
+        - {x: -27.908997, y: -24.774048}
+        - {x: -17.908997, y: -31.774048}
+        - {x: 18.091003, y: -31.774048}
+        - {x: 27.091003, y: -19.774048}
+        - {x: 27.091003, y: 21.225952}
+        - {x: 18.091003, y: 43.225952}
+    - name: armor_suit_29
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 536
+        width: 55
+        height: 76
+      alignment: 9
+      pivot: {x: 0.4925637, y: 0.41389546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.091003, y: 44.543945}
+        - {x: -27.091003, y: 35.543945}
+        - {x: -27.091003, y: -14.456055}
+        - {x: -20.091003, y: -16.456055}
+        - {x: -18.091003, y: -16.456055}
+        - {x: -15.091003, y: -15.456055}
+        - {x: -11.091003, y: -11.456055}
+        - {x: -8.091003, y: -7.4560547}
+        - {x: -11.091003, y: -9.456055}
+        - {x: -13.091003, y: -14.456055}
+        - {x: -19.091003, y: -17.456055}
+        - {x: -27.091003, y: -27.456055}
+        - {x: -27.091003, y: -28.456055}
+        - {x: -14.091003, y: -31.456055}
+        - {x: 21.908997, y: -31.456055}
+        - {x: 27.908997, y: -21.456055}
+        - {x: 27.908997, y: 20.543945}
+        - {x: 15.908997, y: 44.543945}
+    - name: armor_suit_30
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 536
+        width: 55
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38548097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 46.08893}
+        - {x: -27.5, y: 37.08893}
+        - {x: -27.5, y: -28.911072}
+        - {x: 27.5, y: -28.911072}
+        - {x: 27.5, y: 22.088928}
+        - {x: 16.5, y: 46.08893}
+    - name: armor_suit_31
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 538
+        width: 55
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40475422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 43.45294}
+        - {x: -27.5, y: 37.45294}
+        - {x: -27.5, y: -29.547058}
+        - {x: 27.5, y: -29.547058}
+        - {x: 27.5, y: 32.45294}
+        - {x: 10.5, y: 43.45294}
+    - name: armor_suit_32
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 578
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_33
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 556
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 0.5}
+        - {x: -13.5, y: -0.5}
+        - {x: -12.5, y: -19.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 3.5}
+        - {x: 13.5, y: 19.5}
+        - {x: -9.5, y: 19.5}
+        - {x: -16.5, y: 16.5}
+    - name: armor_suit_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 556
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_35
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 556
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 556
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 556
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_38
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 556
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22.5}
+        - {x: -8, y: 19.5}
+        - {x: -8, y: 17.5}
+        - {x: -8, y: 19.5}
+        - {x: -10, y: 22.5}
+        - {x: -17, y: 22.5}
+        - {x: -17, y: -7.5}
+        - {x: -14, y: -19.5}
+        - {x: -8, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 11, y: -18.5}
+        - {x: 17, y: 0.5}
+        - {x: 17, y: 22.5}
+    - name: armor_suit_39
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 453
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 35}
+        - {x: 9.5, y: 36}
+        - {x: -10.5, y: 36}
+        - {x: -23.5, y: 15}
+        - {x: -23.5, y: -36}
+        - {x: 21.5, y: -36}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 15}
+    - name: armor_suit_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 451
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 36}
+        - {x: -37.5, y: 25}
+        - {x: -37.5, y: -33}
+        - {x: -35.5, y: -36}
+        - {x: 33.5, y: -36}
+        - {x: 37.5, y: -26}
+        - {x: 37.5, y: 22}
+        - {x: 27.5, y: 36}
+    - name: armor_suit_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 451
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 36}
+        - {x: -40.5, y: 5}
+        - {x: -40.5, y: -14}
+        - {x: -15.5, y: -36}
+        - {x: 36.5, y: -36}
+        - {x: 40.5, y: -24}
+        - {x: 40.5, y: 20}
+        - {x: 31.5, y: 36}
+    - name: armor_suit_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 451
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 36}
+        - {x: -10.5, y: 35}
+        - {x: -27.5, y: 20}
+        - {x: -27.5, y: -36}
+        - {x: 24.5, y: -36}
+        - {x: 27.5, y: -33}
+        - {x: 27.5, y: 11}
+        - {x: 14.5, y: 36}
+    - name: armor_suit_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 451
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 35.5}
+        - {x: -27.5, y: 15.5}
+        - {x: -27.5, y: -32.5}
+        - {x: -24.5, y: -35.5}
+        - {x: 24.5, y: -35.5}
+        - {x: 27.5, y: -32.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 15.5, y: 35.5}
+    - name: armor_suit_44
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 451
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 35}
+        - {x: -7.5, y: 35}
+        - {x: -10.5, y: 34}
+        - {x: -24.5, y: 15}
+        - {x: -24.5, y: 7}
+        - {x: -27.5, y: -2}
+        - {x: -27.5, y: -19}
+        - {x: -20.5, y: -26}
+        - {x: -18.5, y: -26}
+        - {x: -15.5, y: -25}
+        - {x: -11.5, y: -21}
+        - {x: -10.5, y: -18}
+        - {x: -11.5, y: -19}
+        - {x: -13.5, y: -24}
+        - {x: -19.5, y: -27}
+        - {x: -23.5, y: -35}
+        - {x: 22.5, y: -35}
+        - {x: 27.5, y: -28}
+        - {x: 27.5, y: 18}
+    - name: armor_suit_45
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 446
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 41.5}
+        - {x: -17, y: 41.5}
+        - {x: -28, y: 23.5}
+        - {x: -28, y: -41.5}
+        - {x: 4, y: -41.5}
+        - {x: 10, y: -33.5}
+        - {x: 18, y: -20.5}
+        - {x: 18, y: 27.5}
+      - - {x: 12, y: -4.5}
+        - {x: 10, y: -8.5}
+        - {x: 10, y: -21.5}
+        - {x: 16, y: -23.5}
+        - {x: 27, y: -23.5}
+        - {x: 28, y: -21.5}
+        - {x: 28, y: -6.5}
+        - {x: 23, y: -4.5}
+    - name: armor_suit_47
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 447
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 41.5}
+        - {x: -34, y: 14.5}
+        - {x: -34, y: -12.5}
+        - {x: -23, y: -11.5}
+        - {x: -13, y: -9.5}
+        - {x: -7, y: -7.5}
+        - {x: -8, y: -41.5}
+        - {x: 31, y: -41.5}
+        - {x: 34, y: -40.5}
+        - {x: 34, y: 36.5}
+        - {x: 33, y: 41.5}
+    - name: armor_suit_48
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 444
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 41.5}
+        - {x: -6, y: 41.5}
+        - {x: -37, y: 25.5}
+        - {x: -37, y: -12.5}
+        - {x: -8, y: -41.5}
+        - {x: 29, y: -41.5}
+        - {x: 37, y: -33.5}
+        - {x: 37, y: 33.5}
+    - name: armor_suit_49
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 446
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 41}
+        - {x: -12, y: 41}
+        - {x: -22, y: 27}
+        - {x: -22, y: -41}
+        - {x: 13, y: -41}
+        - {x: 21, y: -36}
+        - {x: 22, y: -32}
+        - {x: 22, y: 27}
+    - name: armor_suit_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 360
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 41.5}
+        - {x: -11.5, y: 41.5}
+        - {x: -30.5, y: 31.5}
+        - {x: -30.5, y: -41.5}
+        - {x: 19.5, y: -41.5}
+        - {x: 30.5, y: -34.5}
+        - {x: 30.5, y: 6.5}
+        - {x: 29.5, y: 7.5}
+    - name: armor_suit_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 354
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 41.5}
+        - {x: -9.5, y: 40.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -27.5, y: 14.5}
+        - {x: -27.5, y: -33.5}
+        - {x: -24.5, y: -41.5}
+        - {x: 13.5, y: -41.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 27.5, y: -35.5}
+        - {x: 27.5, y: 20.5}
+        - {x: 15.5, y: 41.5}
+    - name: armor_suit_52
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 364
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 38.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -27.5, y: -38.5}
+        - {x: 17.5, y: -38.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 27.5, y: 23.5}
+        - {x: 16.5, y: 38.5}
+    - name: armor_suit_53
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 365
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -27.5, y: -37.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 27.5, y: -35.5}
+        - {x: 27.5, y: 13.5}
+        - {x: 15.5, y: 37.5}
+    - name: armor_suit_54
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 367
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 37}
+        - {x: -24, y: 37}
+        - {x: -28, y: 36}
+        - {x: -28, y: -37}
+        - {x: 21, y: -37}
+        - {x: 28, y: -25}
+        - {x: 28, y: 12}
+        - {x: 25, y: 19}
+    - name: armor_suit_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 365
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 37.5}
+        - {x: -28, y: 23.5}
+        - {x: -28, y: -35.5}
+        - {x: -27, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 28, y: -30.5}
+        - {x: 28, y: 13.5}
+        - {x: 18, y: 37.5}
+    - name: armor_suit_56
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 366
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 37}
+        - {x: -6, y: 37}
+        - {x: -30, y: 20}
+        - {x: -30, y: -37}
+        - {x: 23, y: -37}
+        - {x: 30, y: -25}
+        - {x: 30, y: 15}
+        - {x: 29, y: 20}
+    - name: armor_suit_57
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 363
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 38}
+        - {x: -7, y: 38}
+        - {x: -29, y: 24}
+        - {x: -30, y: 23}
+        - {x: -30, y: -27}
+        - {x: -20, y: -38}
+        - {x: 21, y: -38}
+        - {x: 30, y: -14}
+        - {x: 30, y: 13}
+    - name: armor_suit_58
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 396
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_59
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 364
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 38.5}
+        - {x: -28, y: 30.5}
+        - {x: -28, y: -38.5}
+        - {x: 28, y: -38.5}
+        - {x: 28, y: 37.5}
+        - {x: 26, y: 38.5}
+    - name: armor_suit_60
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 366
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 39}
+        - {x: -23.5, y: 25}
+        - {x: -23.5, y: -37}
+        - {x: -18.5, y: -39}
+        - {x: 33.5, y: -39}
+        - {x: 33.5, y: 28}
+        - {x: 23.5, y: 39}
+      - - {x: -33.5, y: 4}
+        - {x: -33.5, y: -7}
+        - {x: -29.5, y: -7}
+        - {x: -24.5, y: -5}
+        - {x: -24.5, y: 4}
+    - name: armor_suit_61
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 367
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 39}
+        - {x: -23.5, y: 25}
+        - {x: -23.5, y: -17}
+        - {x: -20.5, y: -33}
+        - {x: -18.5, y: -39}
+        - {x: 33.5, y: -39}
+        - {x: 33.5, y: 11}
+        - {x: 19.5, y: 39}
+      - - {x: -33.5, y: 4}
+        - {x: -33.5, y: -7}
+        - {x: -29.5, y: -7}
+        - {x: -24.5, y: -5}
+        - {x: -24.5, y: 4}
+    - name: armor_suit_62
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 371
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 36}
+        - {x: -10.5, y: 35}
+        - {x: -27.5, y: 20}
+        - {x: -27.5, y: -36}
+        - {x: 24.5, y: -36}
+        - {x: 27.5, y: -33}
+        - {x: 27.5, y: 11}
+        - {x: 14.5, y: 36}
+    - name: armor_suit_63
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 367
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_64
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 367
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 280
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 29.5}
+        - {x: -5, y: 28.5}
+        - {x: -25, y: 7.5}
+        - {x: -33, y: -21.5}
+        - {x: -33, y: -29.5}
+        - {x: 28, y: -29.5}
+        - {x: 33, y: -26.5}
+        - {x: 33, y: 12.5}
+        - {x: 14, y: 29.5}
+    - name: armor_suit_66
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 32}
+        - {x: -6, y: 31}
+        - {x: -22, y: 10}
+        - {x: -32, y: -24}
+        - {x: -32, y: -32}
+        - {x: 28, y: -32}
+        - {x: 32, y: -23}
+        - {x: 32, y: 12}
+        - {x: 13, y: 32}
+    - name: armor_suit_67
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 280
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 34}
+        - {x: -5, y: 34}
+        - {x: -8, y: 33}
+        - {x: -29, y: 12}
+        - {x: -30, y: 3}
+        - {x: -30, y: -34}
+        - {x: 19, y: -34}
+        - {x: 30, y: -25}
+        - {x: 30, y: 17}
+    - name: armor_suit_68
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 280
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 36}
+        - {x: -10.5, y: 35}
+        - {x: -27.5, y: 20}
+        - {x: -27.5, y: -36}
+        - {x: 24.5, y: -36}
+        - {x: 27.5, y: -33}
+        - {x: 27.5, y: 11}
+        - {x: 14.5, y: 36}
+    - name: armor_suit_69
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 280
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 36}
+        - {x: -27.5, y: 24}
+        - {x: -27.5, y: -27}
+        - {x: -24.5, y: -36}
+        - {x: 25.5, y: -36}
+        - {x: 27.5, y: -31}
+        - {x: 27.5, y: 22}
+        - {x: 16.5, y: 36}
+    - name: armor_suit_70
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 280
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 36}
+        - {x: -10, y: 35}
+        - {x: -28, y: 12}
+        - {x: -28, y: -35}
+        - {x: -26, y: -36}
+        - {x: 26, y: -36}
+        - {x: 28, y: -31}
+        - {x: 28, y: 18}
+        - {x: 11, y: 36}
+    - name: armor_suit_71
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 280
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 35.5}
+        - {x: -10, y: 35.5}
+        - {x: -29, y: 23.5}
+        - {x: -29, y: -20.5}
+        - {x: -21, y: -35.5}
+        - {x: 21, y: -35.5}
+        - {x: 29, y: -25.5}
+        - {x: 29, y: 13.5}
+        - {x: 28, y: 18.5}
+    - name: armor_suit_72
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 306
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_73
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 280
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 35.5}
+        - {x: -27.5, y: 17.5}
+        - {x: -27.5, y: -35.5}
+        - {x: 23.5, y: -35.5}
+        - {x: 27.5, y: -31.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 16.5, y: 35.5}
+    - name: armor_suit_74
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 284
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_75
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 265
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 21}
+        - {x: -33, y: -1}
+        - {x: -33, y: -21}
+        - {x: 27, y: -21}
+        - {x: 33, y: -18}
+        - {x: 33, y: 21}
+    - name: armor_suit_76
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 276
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_77
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 276
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_78
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 291
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_79
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 276
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_80
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 295
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_81
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 270
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_82
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 281
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_83
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 275
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_84
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 272
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_85
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 274
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_86
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 266
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_87
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 264
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_88
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 189
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 36.5}
+        - {x: -27.5, y: 30.5}
+        - {x: -27.5, y: -36.5}
+        - {x: 27.5, y: -36.5}
+        - {x: 27.5, y: 25.5}
+        - {x: 10.5, y: 36.5}
+    - name: armor_suit_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 183
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 37.5}
+        - {x: -10.5, y: 36.5}
+        - {x: -26.5, y: 18.5}
+        - {x: -27.5, y: 14.5}
+        - {x: -27.5, y: -34.5}
+        - {x: -24.5, y: -37.5}
+        - {x: 20.5, y: -37.5}
+        - {x: 27.5, y: -14.5}
+        - {x: 27.5, y: 9.5}
+        - {x: 8.5, y: 37.5}
+    - name: armor_suit_90
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 185
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 38}
+        - {x: -27.5, y: 22}
+        - {x: -27.5, y: -38}
+        - {x: 18.5, y: -38}
+        - {x: 27.5, y: -27}
+        - {x: 27.5, y: 18}
+        - {x: 16.5, y: 38}
+    - name: armor_suit_91
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 183
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 37.5}
+        - {x: -12.5, y: 37.5}
+        - {x: -27.5, y: 12.5}
+        - {x: -27.5, y: -20.5}
+        - {x: -18.5, y: -25.5}
+        - {x: -15.5, y: -23.5}
+        - {x: -17.5, y: -32.5}
+        - {x: -16.5, y: -37.5}
+        - {x: 15.5, y: -37.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 27.5, y: 7.5}
+        - {x: 22.5, y: 17.5}
+    - name: armor_suit_92
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 186
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 36.5}
+        - {x: -27.5, y: 13.5}
+        - {x: -27.5, y: -25.5}
+        - {x: -18.5, y: -26.5}
+        - {x: -15.5, y: -24.5}
+        - {x: -17.5, y: -36.5}
+        - {x: 20.5, y: -36.5}
+        - {x: 27.5, y: -15.5}
+        - {x: 27.5, y: 12.5}
+        - {x: 9.5, y: 36.5}
+    - name: armor_suit_93
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 186
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 37.5}
+        - {x: -27.5, y: 14.5}
+        - {x: -27.5, y: -30.5}
+        - {x: -17.5, y: -37.5}
+        - {x: 18.5, y: -37.5}
+        - {x: 27.5, y: -25.5}
+        - {x: 27.5, y: 15.5}
+        - {x: 18.5, y: 37.5}
+    - name: armor_suit_94
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 186
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 38}
+        - {x: -27.5, y: 29}
+        - {x: -27.5, y: -21}
+        - {x: -20.5, y: -23}
+        - {x: -18.5, y: -23}
+        - {x: -15.5, y: -22}
+        - {x: -11.5, y: -18}
+        - {x: -8.5, y: -14}
+        - {x: -11.5, y: -16}
+        - {x: -13.5, y: -21}
+        - {x: -19.5, y: -24}
+        - {x: -27.5, y: -34}
+        - {x: -27.5, y: -35}
+        - {x: -14.5, y: -38}
+        - {x: 21.5, y: -38}
+        - {x: 27.5, y: -28}
+        - {x: 27.5, y: 14}
+        - {x: 15.5, y: 38}
+    - name: armor_suit_95
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 186
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 37.5}
+        - {x: -27.5, y: 28.5}
+        - {x: -27.5, y: -37.5}
+        - {x: 27.5, y: -37.5}
+        - {x: 27.5, y: 13.5}
+        - {x: 16.5, y: 37.5}
+    - name: armor_suit_96
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 188
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 36.5}
+        - {x: -27.5, y: 30.5}
+        - {x: -27.5, y: -36.5}
+        - {x: 27.5, y: -36.5}
+        - {x: 27.5, y: 25.5}
+        - {x: 10.5, y: 36.5}
+    - name: armor_suit_97
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 228
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_98
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 206
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 0.5}
+        - {x: -13.5, y: -0.5}
+        - {x: -12.5, y: -19.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 3.5}
+        - {x: 13.5, y: 19.5}
+        - {x: -9.5, y: 19.5}
+        - {x: -16.5, y: 16.5}
+    - name: armor_suit_99
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 206
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_100
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 206
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_101
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 206
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_102
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 206
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 206
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22.5}
+        - {x: -8, y: 19.5}
+        - {x: -8, y: 17.5}
+        - {x: -8, y: 19.5}
+        - {x: -10, y: 22.5}
+        - {x: -17, y: 22.5}
+        - {x: -17, y: -7.5}
+        - {x: -14, y: -19.5}
+        - {x: -8, y: -22.5}
+        - {x: 9, y: -22.5}
+        - {x: 11, y: -18.5}
+        - {x: 17, y: 0.5}
+        - {x: 17, y: 22.5}
+    - name: armor_suit_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 103
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 35}
+        - {x: 9.5, y: 36}
+        - {x: -10.5, y: 36}
+        - {x: -23.5, y: 15}
+        - {x: -23.5, y: -36}
+        - {x: 21.5, y: -36}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 15}
+    - name: armor_suit_105
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 101
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 36}
+        - {x: -37.5, y: 25}
+        - {x: -37.5, y: -33}
+        - {x: -35.5, y: -36}
+        - {x: 33.5, y: -36}
+        - {x: 37.5, y: -26}
+        - {x: 37.5, y: 22}
+        - {x: 27.5, y: 36}
+    - name: armor_suit_106
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 101
+        width: 81
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 36}
+        - {x: -40.5, y: 5}
+        - {x: -40.5, y: -14}
+        - {x: -15.5, y: -36}
+        - {x: 36.5, y: -36}
+        - {x: 40.5, y: -24}
+        - {x: 40.5, y: 20}
+        - {x: 31.5, y: 36}
+    - name: armor_suit_107
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 101
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 36}
+        - {x: -10.5, y: 35}
+        - {x: -27.5, y: 20}
+        - {x: -27.5, y: -36}
+        - {x: 24.5, y: -36}
+        - {x: 27.5, y: -33}
+        - {x: 27.5, y: 11}
+        - {x: 14.5, y: 36}
+    - name: armor_suit_108
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 101
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 35.5}
+        - {x: -27.5, y: 15.5}
+        - {x: -27.5, y: -32.5}
+        - {x: -24.5, y: -35.5}
+        - {x: 24.5, y: -35.5}
+        - {x: 27.5, y: -32.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 15.5, y: 35.5}
+    - name: armor_suit_109
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 101
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 35}
+        - {x: -7.5, y: 35}
+        - {x: -10.5, y: 34}
+        - {x: -24.5, y: 15}
+        - {x: -24.5, y: 7}
+        - {x: -27.5, y: -2}
+        - {x: -27.5, y: -19}
+        - {x: -20.5, y: -26}
+        - {x: -18.5, y: -26}
+        - {x: -15.5, y: -25}
+        - {x: -11.5, y: -21}
+        - {x: -10.5, y: -18}
+        - {x: -11.5, y: -19}
+        - {x: -13.5, y: -24}
+        - {x: -19.5, y: -27}
+        - {x: -23.5, y: -35}
+        - {x: 22.5, y: -35}
+        - {x: 27.5, y: -28}
+        - {x: 27.5, y: 18}
+    - name: armor_suit_110
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 96
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 41.5}
+        - {x: -12, y: 41.5}
+        - {x: -22, y: 27.5}
+        - {x: -22, y: -41.5}
+        - {x: 6, y: -41.5}
+        - {x: 19, y: -34.5}
+        - {x: 22, y: -26.5}
+        - {x: 22, y: 18.5}
+      - - {x: 19, y: -5.5}
+        - {x: 16, y: -9.5}
+        - {x: 16, y: -17.5}
+        - {x: 21, y: -21.5}
+        - {x: 22, y: -21.5}
+        - {x: 22, y: -5.5}
+    - name: armor_suit_111
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 116
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_112
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 97
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 41.5}
+        - {x: -34, y: 14.5}
+        - {x: -34, y: -12.5}
+        - {x: -23, y: -11.5}
+        - {x: -13, y: -9.5}
+        - {x: -7, y: -7.5}
+        - {x: -8, y: -41.5}
+        - {x: 31, y: -41.5}
+        - {x: 34, y: -40.5}
+        - {x: 34, y: 36.5}
+        - {x: 33, y: 41.5}
+    - name: armor_suit_113
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 94
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 41.5}
+        - {x: -6, y: 41.5}
+        - {x: -37, y: 25.5}
+        - {x: -37, y: -12.5}
+        - {x: -8, y: -41.5}
+        - {x: 29, y: -41.5}
+        - {x: 37, y: -33.5}
+        - {x: 37, y: 33.5}
+    - name: armor_suit_114
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 96
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 41}
+        - {x: -12, y: 41}
+        - {x: -22, y: 27}
+        - {x: -22, y: -41}
+        - {x: 13, y: -41}
+        - {x: 21, y: -36}
+        - {x: 22, y: -32}
+        - {x: 22, y: 27}
+    - name: armor_suit_115
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 41.5}
+        - {x: -11.5, y: 41.5}
+        - {x: -30.5, y: 31.5}
+        - {x: -30.5, y: -41.5}
+        - {x: 19.5, y: -41.5}
+        - {x: 30.5, y: -34.5}
+        - {x: 30.5, y: 6.5}
+        - {x: 29.5, y: 7.5}
+    - name: armor_suit_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 41.5}
+        - {x: -9.5, y: 40.5}
+        - {x: -26.5, y: 19.5}
+        - {x: -27.5, y: 14.5}
+        - {x: -27.5, y: -33.5}
+        - {x: -24.5, y: -41.5}
+        - {x: 13.5, y: -41.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 27.5, y: -35.5}
+        - {x: 27.5, y: 20.5}
+        - {x: 15.5, y: 41.5}
+    - name: armor_suit_117
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 14
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 38.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -27.5, y: -38.5}
+        - {x: 17.5, y: -38.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 27.5, y: 23.5}
+        - {x: 16.5, y: 38.5}
+    - name: armor_suit_118
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 15
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 37.5}
+        - {x: -27.5, y: 29.5}
+        - {x: -27.5, y: -37.5}
+        - {x: 26.5, y: -37.5}
+        - {x: 27.5, y: -35.5}
+        - {x: 27.5, y: 13.5}
+        - {x: 15.5, y: 37.5}
+    - name: armor_suit_119
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 17
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 37}
+        - {x: -24, y: 37}
+        - {x: -28, y: 36}
+        - {x: -28, y: -37}
+        - {x: 21, y: -37}
+        - {x: 28, y: -25}
+        - {x: 28, y: 12}
+        - {x: 25, y: 19}
+    - name: armor_suit_120
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 15
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 37.5}
+        - {x: -28, y: 23.5}
+        - {x: -28, y: -35.5}
+        - {x: -27, y: -37.5}
+        - {x: 22, y: -37.5}
+        - {x: 28, y: -30.5}
+        - {x: 28, y: 13.5}
+        - {x: 18, y: 37.5}
+    - name: armor_suit_121
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 16
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 37}
+        - {x: -6, y: 37}
+        - {x: -30, y: 20}
+        - {x: -30, y: -37}
+        - {x: 23, y: -37}
+        - {x: 30, y: -25}
+        - {x: 30, y: 15}
+        - {x: 29, y: 20}
+    - name: armor_suit_122
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 13
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 38}
+        - {x: -7, y: 38}
+        - {x: -29, y: 24}
+        - {x: -30, y: 23}
+        - {x: -30, y: -27}
+        - {x: -20, y: -38}
+        - {x: 21, y: -38}
+        - {x: 30, y: -14}
+        - {x: 30, y: 13}
+    - name: armor_suit_123
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 46
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_124
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 14
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 38.5}
+        - {x: -28, y: 30.5}
+        - {x: -28, y: -38.5}
+        - {x: 28, y: -38.5}
+        - {x: 28, y: 37.5}
+        - {x: 26, y: 38.5}
+    - name: armor_suit_125
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 16
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 39}
+        - {x: -23.5, y: 25}
+        - {x: -23.5, y: -37}
+        - {x: -18.5, y: -39}
+        - {x: 33.5, y: -39}
+        - {x: 33.5, y: 28}
+        - {x: 23.5, y: 39}
+      - - {x: -33.5, y: 4}
+        - {x: -33.5, y: -7}
+        - {x: -29.5, y: -7}
+        - {x: -24.5, y: -5}
+        - {x: -24.5, y: 4}
+    - name: armor_suit_126
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 17
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 39}
+        - {x: -23.5, y: 25}
+        - {x: -23.5, y: -17}
+        - {x: -20.5, y: -33}
+        - {x: -18.5, y: -39}
+        - {x: 33.5, y: -39}
+        - {x: 33.5, y: 11}
+        - {x: 19.5, y: 39}
+      - - {x: -33.5, y: 4}
+        - {x: -33.5, y: -7}
+        - {x: -29.5, y: -7}
+        - {x: -24.5, y: -5}
+        - {x: -24.5, y: 4}
+    - name: armor_suit_127
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 21
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 36}
+        - {x: -10.5, y: 35}
+        - {x: -27.5, y: 20}
+        - {x: -27.5, y: -36}
+        - {x: 24.5, y: -36}
+        - {x: 27.5, y: -33}
+        - {x: 27.5, y: 11}
+        - {x: 14.5, y: 36}
+    - name: armor_suit_128
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 17
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: armor_suit_129
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 17
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

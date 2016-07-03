@@ -39,7 +39,7 @@ public class MenuSelector : MonoBehaviour {
             GetComponent<RectTransform>().localPosition = new Vector3(-191,-283);
         }
 
-        if (Input.GetKeyDown(KeyCode.A)) {
+        if (Input.GetKeyDown(KeyCode.Z)) {
             if (options[index] == "start") {
                 SceneManager.LoadScene(1);
                 

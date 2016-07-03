@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour {
 
     //Enemy stats
     public int hp;
-    public int hardness; // determines how hard an enemy is pierce with charge shots
+    public int hardness; // determines how hard an enemy is to pierce with charge shots
     public float moveSpeed;
     public bool isAlive = true;
 

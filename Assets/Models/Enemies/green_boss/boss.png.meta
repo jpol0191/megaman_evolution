@@ -1,0 +1,3064 @@
+fileFormatVersion: 2
+guid: 2e84b929f6509bd4baa8e06ef31805f3
+timeCreated: 1466530043
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boos_0
+    21300002: boos_1
+    21300004: boos_2
+    21300006: boos_3
+    21300008: boos_4
+    21300010: boos_5
+    21300012: boos_6
+    21300014: boos_7
+    21300016: boos_8
+    21300018: boos_9
+    21300020: boos_10
+    21300022: boos_11
+    21300024: boos_12
+    21300026: boos_13
+    21300028: boos_14
+    21300030: boos_15
+    21300032: boos_16
+    21300034: boos_17
+    21300036: boos_18
+    21300038: boos_19
+    21300040: boos_20
+    21300042: boos_21
+    21300044: boos_22
+    21300046: boos_23
+    21300048: boos_24
+    21300050: boos_25
+    21300052: boos_26
+    21300054: boos_27
+    21300056: boos_28
+    21300058: boos_29
+    21300060: boos_30
+    21300062: boos_31
+    21300064: boos_32
+    21300066: boos_33
+    21300068: boos_34
+    21300070: boos_35
+    21300072: boos_36
+    21300074: boos_37
+    21300076: boos_38
+    21300078: boos_39
+    21300080: boos_40
+    21300082: boos_41
+    21300084: boos_42
+    21300086: boos_43
+    21300088: boos_44
+    21300090: boos_45
+    21300092: boos_46
+    21300094: boos_47
+    21300096: boos_48
+    21300098: boos_49
+    21300100: boos_50
+    21300102: boos_51
+    21300104: boos_52
+    21300106: boos_54
+    21300108: boos_55
+    21300110: boos_56
+    21300112: boos_57
+    21300114: boos_58
+    21300116: boos_59
+    21300118: boos_60
+    21300120: boos_61
+    21300122: boos_63
+    21300124: boos_64
+    21300126: boos_65
+    21300128: boos_66
+    21300130: boos_67
+    21300132: boos_68
+    21300134: boos_69
+    21300136: boos_70
+    21300138: boos_71
+    21300140: boos_72
+    21300142: boos_73
+    21300144: boos_74
+    21300146: boos_75
+    21300148: boos_76
+    21300150: boos_77
+    21300152: boos_78
+    21300154: boos_79
+    21300156: boos_80
+    21300158: boos_81
+    21300160: boos_82
+    21300162: boos_83
+    21300164: boos_84
+    21300166: boos_85
+    21300168: boos_86
+    21300170: boos_87
+    21300172: boos_88
+    21300174: boos_89
+    21300176: boos_90
+    21300178: boos_91
+    21300180: boos_92
+    21300182: boos_93
+    21300184: boos_94
+    21300186: boos_95
+    21300188: boos_96
+    21300190: boos_97
+    21300192: boos_98
+    21300194: boos_99
+    21300196: boos_100
+    21300198: boos_101
+    21300200: boos_102
+    21300202: boos_103
+    21300204: boos_104
+    21300206: boos_105
+    21300208: boos_106
+    21300210: boos_107
+    21300212: boos_108
+    21300214: boos_109
+    21300216: boos_110
+    21300218: boos_111
+    21300220: boos_112
+    21300222: boos_113
+    21300224: boos_114
+    21300226: boos_115
+    21300228: boos_116
+    21300230: boos_117
+    21300232: boos_118
+    21300234: boos_119
+    21300236: boos_120
+    21300238: boos_121
+    21300240: boos_122
+    21300242: boos_123
+    21300244: boos_124
+    21300246: boos_125
+    21300248: boos_126
+    21300250: boos_127
+    21300252: boos_128
+    21300254: boos_129
+    21300256: boos_130
+    21300258: boos_131
+    21300260: boos_132
+    21300262: boos_133
+    21300264: boos_134
+    21300266: boos_135
+    21300268: boos_136
+    21300270: boos_137
+    21300272: boos_138
+    21300274: boos_139
+    21300276: boos_140
+    21300278: boos_141
+    21300280: boos_142
+    21300282: boos_143
+    21300284: boos_144
+    21300286: boos_145
+    21300288: boos_146
+    21300290: boos_147
+    21300292: boos_148
+    21300294: boos_149
+    21300296: boos_150
+    21300298: boos_151
+    21300300: boos_152
+    21300302: boos_153
+    21300304: boos_154
+    21300306: boos_155
+    21300308: boos_156
+    21300310: boos_157
+    21300312: boos_158
+    21300314: boos_159
+    21300316: boos_160
+    21300318: boos_161
+    21300320: boos_162
+    21300322: boos_163
+    21300324: boos_164
+    21300326: boos_165
+    21300328: boos_166
+    21300330: boos_167
+    21300332: boos_168
+    21300334: boos_169
+    21300336: boos_170
+    21300338: boos_171
+    21300340: boos_172
+    21300342: boos_173
+    21300344: boos_174
+    21300346: boos_175
+    21300348: boos_176
+    21300350: boos_177
+    21300352: boos_178
+    21300354: boos_179
+    21300356: boos_180
+    21300358: boos_181
+    21300360: boos_182
+    21300362: boos_183
+    21300364: boos_184
+    21300366: boos_185
+    21300368: boos_186
+    21300370: boos_187
+    21300372: boos_188
+    21300374: boos_189
+    21300376: boos_190
+    21300378: boos_191
+    21300380: boos_192
+    21300382: boos_193
+    21300384: boos_194
+    21300386: boos_195
+    21300388: boos_196
+    21300390: boos_197
+    21300392: boos_198
+    21300394: boos_199
+    21300396: boos_200
+    21300398: boos_201
+    21300400: boos_202
+    21300402: boos_203
+    21300404: boos_204
+    21300406: boos_205
+    21300408: boos_206
+    21300410: boos_207
+    21300412: boos_208
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: boos_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 953
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 953
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 954
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 954
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 955
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 956
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 957
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 953
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_8
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 953
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 22}
+        - {x: -14, y: 19}
+        - {x: -18, y: 1}
+        - {x: -18, y: -10}
+        - {x: -15, y: -21}
+        - {x: 18, y: -21}
+        - {x: 19, y: -20}
+        - {x: 19, y: 12}
+        - {x: 11, y: 22}
+    - name: boos_9
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 956
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 20.5}
+        - {x: -16, y: 18.5}
+        - {x: -16, y: -20.5}
+        - {x: 13, y: -20.5}
+        - {x: 16, y: -14.5}
+        - {x: 16, y: 14.5}
+        - {x: 7, y: 20.5}
+    - name: boos_10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 957
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -16}
+        - {x: 19, y: 19}
+        - {x: -10, y: 19}
+        - {x: -17, y: 9}
+        - {x: -19, y: -7}
+        - {x: -19, y: -19}
+        - {x: -10, y: -19}
+        - {x: -9, y: -18}
+        - {x: -6, y: -19}
+        - {x: 14, y: -19}
+    - name: boos_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 910
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -17}
+        - {x: 16.5, y: 18}
+        - {x: -7.5, y: 18}
+        - {x: -16.5, y: 4}
+        - {x: -16.5, y: -18}
+        - {x: -7.5, y: -18}
+        - {x: -6.5, y: -17}
+        - {x: -3.5, y: -18}
+        - {x: 15.5, y: -18}
+    - name: boos_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 909
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 18}
+        - {x: -17, y: 14}
+        - {x: -17, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 14}
+        - {x: 12, y: 18}
+    - name: boos_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 909
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 17.5}
+        - {x: 16, y: 18.5}
+        - {x: -13, y: 18.5}
+        - {x: -17, y: 13.5}
+        - {x: -17, y: -18.5}
+        - {x: -8, y: -18.5}
+        - {x: -7, y: -17.5}
+        - {x: -6, y: -18.5}
+        - {x: 17, y: -18.5}
+    - name: boos_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 909
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 19}
+        - {x: -15, y: 16}
+        - {x: -17, y: 11}
+        - {x: -17, y: -19}
+        - {x: 16, y: -19}
+        - {x: 17, y: -14}
+        - {x: 17, y: 13}
+        - {x: 12, y: 19}
+    - name: boos_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 909
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 17.5}
+        - {x: 16, y: 18.5}
+        - {x: -13, y: 18.5}
+        - {x: -17, y: 13.5}
+        - {x: -17, y: -18.5}
+        - {x: -8, y: -18.5}
+        - {x: -7, y: -17.5}
+        - {x: -6, y: -18.5}
+        - {x: 17, y: -18.5}
+    - name: boos_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 909
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 18}
+        - {x: -17, y: 14}
+        - {x: -17, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 14}
+        - {x: 12, y: 18}
+    - name: boos_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 909
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 18}
+        - {x: -17, y: 14}
+        - {x: -17, y: -18}
+        - {x: 17, y: -18}
+        - {x: 17, y: 14}
+        - {x: 12, y: 18}
+    - name: boos_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 910
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 18}
+        - {x: -17.5, y: 14}
+        - {x: -19.5, y: 8}
+        - {x: -19.5, y: -18}
+        - {x: 19.5, y: -18}
+        - {x: 19.5, y: 12}
+        - {x: 12.5, y: 18}
+    - name: boos_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 910
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 7}
+        - {x: 8.5, y: 18}
+        - {x: -7.5, y: 18}
+        - {x: -19.5, y: -3}
+        - {x: -19.5, y: -18}
+        - {x: 14.5, y: -18}
+        - {x: 19.5, y: -7}
+        - {x: 19.5, y: 5}
+    - name: boos_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 866
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 866
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 865
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 17.5}
+        - {x: 14.5, y: 18.5}
+        - {x: -4.5, y: 18.5}
+        - {x: -17.5, y: 3.5}
+        - {x: -17.5, y: -18.5}
+        - {x: 5.5, y: -18.5}
+        - {x: 14.5, y: -16.5}
+        - {x: 17.5, y: -6.5}
+        - {x: 17.5, y: 13.5}
+    - name: boos_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 866
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -17.5}
+        - {x: 19, y: -17.5}
+        - {x: 19, y: 17.5}
+        - {x: -11, y: 17.5}
+        - {x: -19, y: 0.5}
+    - name: boos_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 867
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_25
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 867
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_26
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 867
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 867
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 17}
+        - {x: -12.5, y: 16}
+        - {x: -16.5, y: 3}
+        - {x: -16.5, y: 0}
+        - {x: -10.5, y: -2}
+        - {x: -8.5, y: -2}
+        - {x: -10.5, y: -2}
+        - {x: -16.5, y: -7}
+        - {x: -16.5, y: -17}
+        - {x: 12.5, y: -17}
+        - {x: 16.5, y: -10}
+        - {x: 16.5, y: 11}
+        - {x: 12.5, y: 17}
+    - name: boos_28
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 866
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 15.5, y: 17.5}
+        - {x: -5.5, y: 17.5}
+        - {x: -16.5, y: 10.5}
+        - {x: -16.5, y: -16.5}
+    - name: boos_29
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 866
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_30
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 866
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 818
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_32
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 818
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 818
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_34
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 818
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_35
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 818
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 818
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_37
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 765
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 21.5}
+        - {x: -28, y: 20.5}
+        - {x: -27, y: 17.5}
+        - {x: -28, y: 8.5}
+        - {x: -28, y: -21.5}
+        - {x: 20, y: -21.5}
+        - {x: 28, y: -10.5}
+        - {x: 28, y: 12.5}
+        - {x: 13, y: 21.5}
+    - name: boos_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 765
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 22}
+        - {x: -32, y: 20}
+        - {x: -31, y: 17}
+        - {x: -17, y: 16}
+        - {x: 4, y: 10}
+        - {x: 10, y: 3}
+        - {x: -1, y: 11}
+        - {x: -14, y: 9}
+        - {x: -24, y: 6}
+        - {x: -32, y: -10}
+        - {x: -32, y: -22}
+        - {x: 19, y: -22}
+        - {x: 32, y: -10}
+        - {x: 32, y: 9}
+        - {x: 16, y: 22}
+    - name: boos_39
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 765
+        width: 61
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_40
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 761
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -16}
+        - {x: -20, y: -17}
+        - {x: 22, y: -17}
+        - {x: 22, y: 2}
+        - {x: 16, y: 17}
+        - {x: -11, y: 17}
+        - {x: -15, y: 16}
+        - {x: -22, y: 2}
+    - name: boos_41
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 761
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 16.5}
+        - {x: -16.5, y: -0.5}
+        - {x: -16.5, y: -14.5}
+        - {x: -9.5, y: -14.5}
+        - {x: -6.5, y: -11.5}
+        - {x: 1.5, y: -5.5}
+        - {x: -0.5, y: -6.5}
+        - {x: -1.5, y: -9.5}
+        - {x: 5.5, y: -16.5}
+        - {x: 14.5, y: -16.5}
+        - {x: 16.5, y: -11.5}
+        - {x: 16.5, y: 16.5}
+    - name: boos_42
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 762
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 16}
+        - {x: -8.5, y: 10}
+        - {x: -16.5, y: -4}
+        - {x: -16.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 15.5, y: -11}
+        - {x: 16.5, y: -9}
+        - {x: 16.5, y: 16}
+    - name: boos_43
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 764
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_44
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 765
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_45
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 765
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_46
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 723
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_47
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 722
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_48
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 723
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_49
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 722
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 17}
+        - {x: -16.5, y: 14}
+        - {x: -16.5, y: -17}
+        - {x: 15.5, y: -17}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 16}
+        - {x: 15.5, y: 17}
+    - name: boos_50
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 721
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_51
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 675
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 675
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: -6}
+        - {x: 28.5, y: 12}
+        - {x: 24.5, y: 16}
+        - {x: 19.5, y: 18}
+        - {x: -11.5, y: 18}
+        - {x: -28.5, y: 1}
+        - {x: -28.5, y: -18}
+        - {x: 10.5, y: -18}
+    - name: boos_54
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 675
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 18.5}
+        - {x: -31.5, y: -5.5}
+        - {x: -31.5, y: -18.5}
+        - {x: 16.5, y: -18.5}
+        - {x: 31.5, y: -12.5}
+        - {x: 31.5, y: 18.5}
+    - name: boos_55
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 671
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_56
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 671
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_57
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 671
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_58
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 669
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 671
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 627
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -16.5}
+        - {x: 10.5, y: -17.5}
+        - {x: 10.5, y: -19.5}
+        - {x: 28.5, y: -19.5}
+        - {x: 28.5, y: -16.5}
+      - - {x: -9.5, y: 19.5}
+        - {x: -28.5, y: 8.5}
+        - {x: -28.5, y: -15.5}
+        - {x: -27.5, y: -16.5}
+        - {x: 17.5, y: -16.5}
+        - {x: 28.5, y: -0.5}
+        - {x: 28.5, y: 13.5}
+        - {x: 22.5, y: 19.5}
+    - name: boos_61
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 628
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 22}
+        - {x: -21.5, y: 14}
+        - {x: -26.5, y: 0}
+        - {x: -26.5, y: -22}
+        - {x: 21.5, y: -22}
+        - {x: 26.5, y: -13}
+        - {x: 26.5, y: 19}
+        - {x: 23.5, y: 22}
+    - name: boos_63
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 627
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: -21.5}
+        - {x: 5.5, y: -19.5}
+        - {x: 2.5, y: -18.5}
+        - {x: 0.5, y: -21.5}
+      - - {x: 13.5, y: 21.5}
+        - {x: 0.5, y: 21.5}
+        - {x: -15.5, y: 9.5}
+        - {x: -20.5, y: 3.5}
+        - {x: -26.5, y: -1.5}
+        - {x: -26.5, y: -21.5}
+        - {x: 19.5, y: -21.5}
+        - {x: 26.5, y: -8.5}
+        - {x: 26.5, y: 13.5}
+        - {x: 23.5, y: 17.5}
+    - name: boos_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 578
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 18.5}
+        - {x: -16, y: 12.5}
+        - {x: -16, y: -9.5}
+        - {x: -12, y: -18.5}
+        - {x: 12, y: -18.5}
+        - {x: 16, y: -14.5}
+        - {x: 16, y: 18.5}
+    - name: boos_65
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 577
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 577
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_67
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 576
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_68
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 579
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_69
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 579
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 17.5}
+        - {x: -3, y: 17.5}
+        - {x: -16, y: 6.5}
+        - {x: -16, y: -17.5}
+        - {x: -7, y: -17.5}
+        - {x: -6, y: -16.5}
+        - {x: -5, y: -17.5}
+        - {x: 16, y: -17.5}
+    - name: boos_70
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 574
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_71
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 576
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 20}
+        - {x: -10, y: 20}
+        - {x: -17, y: 17}
+        - {x: -19, y: 11}
+        - {x: -19, y: -20}
+        - {x: 15, y: -20}
+        - {x: 16, y: -17}
+        - {x: 19, y: -4}
+        - {x: 19, y: 10}
+    - name: boos_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 515
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_73
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 520
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 22}
+        - {x: -26, y: 22}
+        - {x: -26, y: 0}
+        - {x: -23, y: 1}
+        - {x: -19, y: -11}
+        - {x: -14, y: -20}
+        - {x: -12, y: -22}
+        - {x: 7, y: -22}
+        - {x: 25, y: -19}
+        - {x: 26, y: -17}
+        - {x: 26, y: 18}
+    - name: boos_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 521
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 21}
+        - {x: 13.5, y: 22}
+        - {x: -21.5, y: 22}
+        - {x: -28.5, y: 15}
+        - {x: -28.5, y: 0}
+        - {x: -25.5, y: 1}
+        - {x: -21.5, y: -11}
+        - {x: -16.5, y: -20}
+        - {x: -14.5, y: -22}
+        - {x: 11.5, y: -22}
+        - {x: 24.5, y: -21}
+        - {x: 28.5, y: -17}
+        - {x: 28.5, y: 11}
+    - name: boos_75
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 516
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 20.5}
+        - {x: -24.5, y: 8.5}
+        - {x: -24.5, y: -16.5}
+        - {x: -12.5, y: -20.5}
+        - {x: 21.5, y: -20.5}
+        - {x: 24.5, y: -12.5}
+        - {x: 24.5, y: 15.5}
+        - {x: 19.5, y: 20.5}
+    - name: boos_76
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 514
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: -10}
+        - {x: -20, y: -14}
+        - {x: -12, y: -18}
+        - {x: 24, y: -18}
+        - {x: 24, y: 8}
+        - {x: 15, y: 18}
+        - {x: -18, y: 18}
+        - {x: -24, y: 8}
+    - name: boos_77
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 514
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 18}
+        - {x: -18.5, y: 9}
+        - {x: -18.5, y: -11}
+        - {x: -17.5, y: -18}
+        - {x: 18.5, y: -18}
+        - {x: 18.5, y: -6}
+        - {x: 13.5, y: 10}
+        - {x: 8.5, y: 18}
+    - name: boos_78
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 514
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 18}
+        - {x: -18.5, y: 9}
+        - {x: -18.5, y: -11}
+        - {x: -17.5, y: -18}
+        - {x: 18.5, y: -18}
+        - {x: 18.5, y: -6}
+        - {x: 13.5, y: 10}
+        - {x: 8.5, y: 18}
+    - name: boos_79
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 517
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16.5}
+        - {x: -16, y: 6.5}
+        - {x: -16, y: -7.5}
+        - {x: -15, y: -12.5}
+        - {x: -9, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 16, y: 8.5}
+        - {x: 11, y: 16.5}
+    - name: boos_80
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 516
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: -19}
+        - {x: 18.5, y: -19}
+        - {x: 18.5, y: -14}
+        - {x: 13.5, y: -7}
+        - {x: 12.5, y: 18}
+        - {x: 9.5, y: 19}
+        - {x: -7.5, y: 19}
+        - {x: -18.5, y: 14}
+        - {x: -18.5, y: -9}
+        - {x: -16.5, y: -19}
+        - {x: -5.5, y: -19}
+        - {x: -4.5, y: -15}
+        - {x: -3.5, y: -16}
+        - {x: -0.5, y: -17}
+    - name: boos_81
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 515
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 19.5}
+        - {x: -20, y: 15.5}
+        - {x: -20, y: -4.5}
+        - {x: -18, y: -18.5}
+        - {x: -16, y: -19.5}
+        - {x: 0, y: -19.5}
+        - {x: 12, y: -15.5}
+        - {x: 12, y: 19.5}
+      - - {x: 14, y: -18.5}
+        - {x: 17, y: -17.5}
+        - {x: 17, y: -14.5}
+        - {x: 14, y: -13.5}
+        - {x: 12, y: -15.5}
+    - name: boos_82
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 453
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_83
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 454
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_84
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 456
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_85
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 458
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_86
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 458
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_87
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 461
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_88
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 460
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_89
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 460
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_90
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 455
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17.5}
+        - {x: -19, y: 12.5}
+        - {x: -19, y: 2.5}
+        - {x: -17, y: 0.5}
+        - {x: -2, y: -15.5}
+        - {x: 7, y: -17.5}
+        - {x: 19, y: -17.5}
+        - {x: 19, y: 9.5}
+        - {x: 1, y: 17.5}
+    - name: boos_91
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 455
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20.5}
+        - {x: -18, y: -20.5}
+        - {x: -5, y: -20.5}
+        - {x: 18, y: -13.5}
+        - {x: 18, y: 8.5}
+        - {x: 5, y: 20.5}
+    - name: boos_92
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 455
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_93
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 405
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_94
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 405
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_95
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 403
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_96
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 404
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 21}
+        - {x: -25.5, y: 14}
+        - {x: -25.5, y: -14}
+        - {x: -15.5, y: -19}
+        - {x: 5.5, y: -21}
+        - {x: 25.5, y: -21}
+        - {x: 25.5, y: 21}
+    - name: boos_97
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 404
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21}
+        - {x: -28.5, y: 13}
+        - {x: -28.5, y: -18}
+        - {x: -17.5, y: -21}
+        - {x: 28.5, y: -21}
+        - {x: 28.5, y: 21}
+    - name: boos_98
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 409
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_99
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 405
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_100
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 404
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_101
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 405
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_102
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 404
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_103
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 404
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_104
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 404
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 21}
+        - {x: -5.5, y: 18}
+        - {x: -9.5, y: 11}
+        - {x: -9.5, y: 6}
+        - {x: -19.5, y: -15}
+        - {x: -19.5, y: -21}
+        - {x: 19.5, y: -21}
+        - {x: 19.5, y: 21}
+    - name: boos_105
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 402
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_106
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 355
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_107
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 355
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_108
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 355
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_109
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 355
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_110
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 352
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 19}
+        - {x: -19, y: -11}
+        - {x: -16, y: -19}
+        - {x: 11, y: -19}
+        - {x: 19, y: -13}
+        - {x: 19, y: 13}
+        - {x: 12, y: 19}
+    - name: boos_111
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 354
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 21.5}
+        - {x: -17.5, y: 11.5}
+        - {x: -17.5, y: -6.5}
+        - {x: -7.5, y: -5.5}
+        - {x: -5.5, y: -1.5}
+        - {x: -6.5, y: 4.5}
+        - {x: -6.5, y: 2.5}
+        - {x: -3.5, y: 0.5}
+        - {x: -6.5, y: -21.5}
+        - {x: 12.5, y: -21.5}
+        - {x: 17.5, y: -15.5}
+        - {x: 17.5, y: 13.5}
+        - {x: 7.5, y: 21.5}
+    - name: boos_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 324
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_113
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 324
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_114
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 324
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_115
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 318
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_117
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 322
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_118
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 320
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_119
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 320
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_120
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 322
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_121
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 281
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_122
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 281
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_123
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 279
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_124
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 283
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_125
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 278
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 16}
+        - {x: -21.5, y: 3}
+        - {x: -21.5, y: -6}
+        - {x: 1.5, y: -16}
+        - {x: 18.5, y: -16}
+        - {x: 21.5, y: -13}
+        - {x: 21.5, y: 5}
+        - {x: 15.5, y: 16}
+    - name: boos_126
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 279
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_127
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 282
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_128
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 283
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_129
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 249
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_130
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 249
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_131
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 247
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_132
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 249
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_133
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 244
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_134
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 244
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_135
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 242
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_136
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 242
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_137
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 215
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_138
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 214
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_139
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 212
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_140
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 210
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_141
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 210
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_142
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 177
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: -20.5}
+        - {x: 4.5, y: -22.5}
+        - {x: 10.5, y: -22.5}
+        - {x: 10.5, y: -20.5}
+        - {x: 8.5, y: -18.5}
+        - {x: 6.5, y: -18.5}
+      - - {x: -11.5, y: -4.5}
+        - {x: -13.5, y: -6.5}
+        - {x: -13.5, y: -16.5}
+        - {x: -11.5, y: -18.5}
+        - {x: -9.5, y: -18.5}
+        - {x: -7.5, y: -16.5}
+        - {x: -7.5, y: -6.5}
+        - {x: -9.5, y: -4.5}
+      - - {x: -20.5, y: -16.5}
+        - {x: -17.5, y: -15.5}
+        - {x: -17.5, y: -12.5}
+        - {x: -19.5, y: -10.5}
+        - {x: -20.5, y: -10.5}
+      - - {x: 16.5, y: -3.5}
+        - {x: 16.5, y: -5.5}
+        - {x: 18.5, y: -7.5}
+        - {x: 20.5, y: -7.5}
+        - {x: 20.5, y: -1.5}
+        - {x: 18.5, y: -1.5}
+      - - {x: 2.5, y: -0.5}
+        - {x: 0.5, y: -2.5}
+        - {x: 0.5, y: -4.5}
+        - {x: 2.5, y: -6.5}
+        - {x: 13.5, y: -6.5}
+        - {x: 14.5, y: -4.5}
+        - {x: 14.5, y: -1.5}
+        - {x: 12.5, y: -0.5}
+      - - {x: -20.5, y: 8.5}
+        - {x: -20.5, y: 2.5}
+        - {x: -14.5, y: -3.5}
+        - {x: -11.5, y: -3.5}
+        - {x: -10.5, y: -1.5}
+        - {x: -10.5, y: 2.5}
+        - {x: -18.5, y: 8.5}
+      - - {x: -13.5, y: 22.5}
+        - {x: -13.5, y: 20.5}
+        - {x: -11.5, y: 18.5}
+        - {x: -9.5, y: 18.5}
+        - {x: -7.5, y: 20.5}
+        - {x: -7.5, y: 22.5}
+    - name: boos_143
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 212
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_144
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 212
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_145
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 214
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_146
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_147
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 205
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_148
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 205
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_149
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 211
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_150
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 211
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_151
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 196
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_152
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 194
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_153
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 195
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_154
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 188
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_155
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_156
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 195
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_157
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 193
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_158
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 185
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_159
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 193
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_160
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 176
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_161
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 175
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_162
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 172
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_163
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 177
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_164
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_165
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 176
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_166
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 171
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_167
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 179
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_168
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 170
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_169
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 175
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_170
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 169
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_171
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 169
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_172
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 168
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_173
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 145
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_174
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 144
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_175
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_176
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 140
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_177
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 140
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_178
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 107
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: -20.5}
+        - {x: 4.5, y: -22.5}
+        - {x: 10.5, y: -22.5}
+        - {x: 10.5, y: -20.5}
+        - {x: 8.5, y: -18.5}
+        - {x: 6.5, y: -18.5}
+      - - {x: -11.5, y: -4.5}
+        - {x: -13.5, y: -6.5}
+        - {x: -13.5, y: -16.5}
+        - {x: -11.5, y: -18.5}
+        - {x: -9.5, y: -18.5}
+        - {x: -7.5, y: -16.5}
+        - {x: -7.5, y: -6.5}
+        - {x: -9.5, y: -4.5}
+      - - {x: -20.5, y: -16.5}
+        - {x: -17.5, y: -15.5}
+        - {x: -17.5, y: -12.5}
+        - {x: -19.5, y: -10.5}
+        - {x: -20.5, y: -10.5}
+      - - {x: 16.5, y: -3.5}
+        - {x: 16.5, y: -5.5}
+        - {x: 18.5, y: -7.5}
+        - {x: 20.5, y: -7.5}
+        - {x: 20.5, y: -1.5}
+        - {x: 18.5, y: -1.5}
+      - - {x: 2.5, y: -0.5}
+        - {x: 0.5, y: -2.5}
+        - {x: 0.5, y: -4.5}
+        - {x: 2.5, y: -6.5}
+        - {x: 13.5, y: -6.5}
+        - {x: 14.5, y: -4.5}
+        - {x: 14.5, y: -1.5}
+        - {x: 12.5, y: -0.5}
+      - - {x: -20.5, y: 8.5}
+        - {x: -20.5, y: 2.5}
+        - {x: -14.5, y: -3.5}
+        - {x: -11.5, y: -3.5}
+        - {x: -10.5, y: -1.5}
+        - {x: -10.5, y: 2.5}
+        - {x: -18.5, y: 8.5}
+      - - {x: -13.5, y: 22.5}
+        - {x: -13.5, y: 20.5}
+        - {x: -11.5, y: 18.5}
+        - {x: -9.5, y: 18.5}
+        - {x: -7.5, y: 20.5}
+        - {x: -7.5, y: 22.5}
+    - name: boos_179
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 142
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_180
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 142
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_181
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 144
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_182
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 140
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_183
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_184
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_185
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 141
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_186
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 141
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_187
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 126
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_188
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 124
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_189
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 125
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 118
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_191
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 124
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_192
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 125
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_193
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 123
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_194
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 115
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_195
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 123
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_196
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 106
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_197
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 105
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_198
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 102
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_199
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 107
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_200
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 110
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_201
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 106
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_202
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 101
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_203
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_204
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 100
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_205
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 105
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_206
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 99
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boos_207
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 21
+        width: 45
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -42}
+        - {x: 22.5, y: -42}
+        - {x: 22.5, y: -38}
+        - {x: 19.5, y: -39}
+      - - {x: -22.5, y: 12}
+        - {x: -22.5, y: 6}
+        - {x: -21.5, y: 6}
+        - {x: -17.5, y: 10}
+        - {x: -18.5, y: 13}
+        - {x: -21.5, y: 13}
+      - - {x: -21.5, y: 42}
+        - {x: -21.5, y: 35}
+        - {x: -18.5, y: 34}
+        - {x: -12.5, y: 34}
+        - {x: -11.5, y: 35}
+        - {x: -11.5, y: 42}
+    - name: boos_208
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 98
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -54,7 +54,7 @@ public class PlatformController : RaycastController {
     }
 
     // Move between waypoints
-    Vector3 CalculatePlatformMovement() {
+    Vector3 CalculatePlatformMovement () {
         if(Time.time < nextMoveTime) {
             return Vector3.zero;
         }
@@ -95,6 +95,7 @@ public class PlatformController : RaycastController {
             }
         } 
     }
+
     void CalculatePassengerMovement(Vector3 velocity) {
         HashSet<Transform> movedPassengers = new HashSet<Transform> ();
         passengerMovement = new List<PassengerMovement>();

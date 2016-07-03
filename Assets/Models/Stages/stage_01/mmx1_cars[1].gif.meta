@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 9787ca48363ed7a4ea0aeacbc0d77816
+timeCreated: 1466966487
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx1_cars[1]_0
+    21300002: mmx1_cars[1]_1
+    21300004: mmx1_cars[1]_2
+    21300006: mmx1_cars[1]_3
+    21300008: mmx1_cars[1]_4
+    21300010: mmx1_cars[1]_5
+    21300012: mmx1_cars[1]_6
+    21300014: mmx1_cars[1]_7
+    21300016: mmx1_cars[1]_8
+    21300018: mmx1_cars[1]_9
+    21300020: mmx1_cars[1]_10
+    21300022: mmx1_cars[1]_11
+    21300024: mmx1_cars[1]_12
+    21300026: mmx1_cars[1]_13
+    21300028: mmx1_cars[1]_14
+    21300030: mmx1_cars[1]_15
+    21300032: mmx1_cars[1]_16
+    21300034: mmx1_cars[1]_17
+    21300036: mmx1_cars[1]_18
+    21300038: mmx1_cars[1]_19
+    21300040: mmx1_cars[1]_20
+    21300042: mmx1_cars[1]_21
+    21300044: mmx1_cars[1]_22
+    21300046: mmx1_cars[1]_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mmx1_cars[1]_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 175
+        width: 101
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 21.5}
+        - {x: -50.5, y: 3.5}
+        - {x: -50.5, y: -18.5}
+        - {x: -45.5, y: -21.5}
+        - {x: 44.5, y: -21.5}
+        - {x: 50.5, y: -18.5}
+        - {x: 50.5, y: 15.5}
+        - {x: 43.5, y: 21.5}
+    - name: mmx1_cars[1]_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 175
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 20}
+        - {x: -48, y: 8}
+        - {x: -48, y: -20}
+        - {x: 48, y: -20}
+        - {x: 48, y: 20}
+    - name: mmx1_cars[1]_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 158
+        width: 80
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 23}
+        - {x: -19, y: 23}
+        - {x: -39, y: 15}
+        - {x: -40, y: 11}
+        - {x: -40, y: -23}
+        - {x: 37, y: -23}
+        - {x: 40, y: -19}
+        - {x: 40, y: 12}
+        - {x: 39, y: 19}
+    - name: mmx1_cars[1]_3
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 172
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 136
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28}
+        - {x: -16, y: -27}
+        - {x: -15, y: -28}
+        - {x: 16, y: -28}
+        - {x: 16, y: 28}
+    - name: mmx1_cars[1]_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 177
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 101
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 21}
+        - {x: -50.5, y: 4}
+        - {x: -50.5, y: -19}
+        - {x: -47.5, y: -21}
+        - {x: 50.5, y: -21}
+        - {x: 50.5, y: 21}
+    - name: mmx1_cars[1]_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 129
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 20}
+        - {x: -48, y: 8}
+        - {x: -48, y: -20}
+        - {x: 48, y: -20}
+        - {x: 48, y: 20}
+    - name: mmx1_cars[1]_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 161
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 146
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_10
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 144
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 95
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 23.5}
+        - {x: -40, y: 1.5}
+        - {x: -40, y: -21.5}
+        - {x: -38, y: -23.5}
+        - {x: 40, y: -23.5}
+        - {x: 40, y: 23.5}
+    - name: mmx1_cars[1]_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 121
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 78
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 16}
+        - {x: -39, y: 10}
+        - {x: -39, y: -16}
+        - {x: 39, y: -16}
+        - {x: 39, y: 8}
+        - {x: 36, y: 16}
+    - name: mmx1_cars[1]_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 78
+        width: 80
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 91
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_16
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 37
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 41.5}
+        - {x: -32, y: 22.5}
+        - {x: -32, y: -41.5}
+        - {x: 32, y: -41.5}
+        - {x: 32, y: 5.5}
+        - {x: 18, y: 41.5}
+    - name: mmx1_cars[1]_17
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 31
+        width: 102
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 19}
+        - {x: 18, y: 23}
+        - {x: -29, y: 23}
+        - {x: -51, y: 0}
+        - {x: -51, y: -23}
+        - {x: 21, y: -23}
+        - {x: 31, y: -16}
+        - {x: 31, y: 9}
+      - - {x: 47, y: -5}
+        - {x: 45, y: -10}
+        - {x: 45, y: -13}
+        - {x: 47, y: -14}
+        - {x: 51, y: -12}
+        - {x: 51, y: -7}
+        - {x: 49, y: -5}
+      - - {x: 41, y: -4}
+        - {x: 37, y: -8}
+        - {x: 37, y: -9}
+        - {x: 42, y: -13}
+        - {x: 45, y: -12}
+        - {x: 45, y: -9}
+        - {x: 43, y: -4}
+      - - {x: 40, y: 23}
+        - {x: 39, y: 22}
+        - {x: 37, y: 16}
+        - {x: 37, y: 13}
+        - {x: 42, y: 7}
+        - {x: 51, y: 7}
+        - {x: 51, y: 23}
+    - name: mmx1_cars[1]_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 69
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_20
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_21
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 63
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mmx1_cars[1]_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16.5}
+        - {x: -39, y: 7.5}
+        - {x: -39, y: -15.5}
+        - {x: -37, y: -16.5}
+        - {x: 39, y: -16.5}
+        - {x: 39, y: 16.5}
+    - name: mmx1_cars[1]_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 31
+        width: 80
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
